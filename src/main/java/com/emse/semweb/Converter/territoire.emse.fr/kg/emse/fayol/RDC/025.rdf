@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:TechnicianRoom rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/025">
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="en">cleaning local 025</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature"/>
+    </seas:temperature>
+    <rdfs:comment xml:lang="en">A room reserved for technical staff and service agents, at the ground floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:label xml:lang="fr">local ménage 025</rdfs:label>
+  </territoire:TechnicianRoom>
+</rdf:RDF>

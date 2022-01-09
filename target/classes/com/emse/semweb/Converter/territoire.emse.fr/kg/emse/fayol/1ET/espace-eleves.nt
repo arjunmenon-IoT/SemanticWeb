@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <http://www.w3.org/2000/01/rdf-schema#comment> "Area for students to relax between classes, with sofa, coffee machines, tables"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/100> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#coffee-machine> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#vending-machine> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <http://www.w3.org/2000/01/rdf-schema#label> "espace élève"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> <http://www.w3.org/2000/01/rdf-schema#label> "student space"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

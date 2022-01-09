@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "fr",
+      "@value" : "Area for students to relax between classes, with sofa, coffee machines, tables"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "espace élève"
+    }, {
+      "@language" : "en",
+      "@value" : "student space"
+    } ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/100", "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor" ],
+    "hasElement" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#coffee-machine", "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#vending-machine" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

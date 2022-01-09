@@ -1,0 +1,20 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/416> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/4ET/418#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/4ET/418#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://territoire.emse.fr/kg/ontology/roomCapacity> "TODO" .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/416> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <http://www.w3.org/2000/01/rdf-schema#label> "meeting room 418"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <http://www.w3.org/2000/01/rdf-schema#label> "meeting room 418"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/4ET/418#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <http://www.w3.org/2000/01/rdf-schema#comment> "Meeting room 418 at 4th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/4ET/418#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/MeetingRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/420B> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/418> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/420A> .

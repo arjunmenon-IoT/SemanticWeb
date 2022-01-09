@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:PrinterRoom rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/420A">
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/420A#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/420A#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/418"/>
+    <rdfs:comment xml:lang="en">Printer room 420A at 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/420A#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/420A#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/420B"/>
+    <rdfs:label xml:lang="fr">printer room 420A</rdfs:label>
+    <rdfs:label xml:lang="en">printer room 420A</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+  </territoire:PrinterRoom>
+</rdf:RDF>

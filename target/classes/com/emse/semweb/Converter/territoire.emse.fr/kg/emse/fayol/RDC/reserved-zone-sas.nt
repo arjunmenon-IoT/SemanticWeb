@@ -1,0 +1,22 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <http://www.w3.org/2000/01/rdf-schema#label> "sas de zone réservé"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/021> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/020B> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <http://www.w3.org/2000/01/rdf-schema#comment> "Small sas connecting the corridor to the bathrooms to technical rooms, at the ground floor of Espace Fauriel, Mines Saint-Étienne"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/020B> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <http://www.w3.org/2000/01/rdf-schema#label> "reserved zone sas"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

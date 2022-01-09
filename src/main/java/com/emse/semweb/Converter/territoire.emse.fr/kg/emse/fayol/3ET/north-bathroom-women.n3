@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women>
+        a                         bot:Space , territoire:Bathroom ;
+        rdfs:comment              "Women's bathroom on the North side of 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "North women's bathroom"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/3ET/shower> , <https://territoire.emse.fr/kg/emse/fayol/3ET/308> , <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#temperature>
+        a       seas:TemperatureProperty .

@@ -1,0 +1,167 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/ontology/",
+    "@type" : "owl:Ontology",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "This is the ontology for the Plateforme Territoire"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "Territoire ontology"
+    }
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/Amphitheatre",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of amphitheatre class rooms"
+    },
+    "label" : "Amphitheatre",
+    "subClassOf" : "https://territoire.emse.fr/kg/ontology/ClassRoom"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/Bathroom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of rooms equipped with toilets and/or shower"
+    },
+    "label" : "Bathroom",
+    "subClassOf" : "bot:Space"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/ClassRoom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of rooms that are dedicated to teaching"
+    },
+    "label" : "Class Room",
+    "subClassOf" : "bot:Space"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/ComputerClassRoom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of classrooms that are equipped with computers"
+    },
+    "label" : "Computer Class Room",
+    "subClassOf" : "https://territoire.emse.fr/kg/ontology/ClassRoom"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/MeetingRoom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of rooms that are dedicated to meetings"
+    },
+    "label" : "Meeting Room",
+    "subClassOf" : "bot:Space"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/OfficeRoom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of rooms that are dedicated to offices"
+    },
+    "label" : "Office Room",
+    "subClassOf" : "bot:Space"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/StorageRoom",
+    "@type" : "owl:Class",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The class of rooms that are dedicated to store things"
+    },
+    "label" : "Storage Room",
+    "subClassOf" : "bot:Space"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+    "@type" : "rdf:Property",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "links a zone to another zone that humans can walk to"
+    },
+    "domain" : "bot:Zone",
+    "isDefinedBy" : "https://territoire.emse.fr/kg/ontology/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "can walk to"
+    },
+    "range" : "bot:Zone",
+    "subPropertyOf" : "bot:adjacentZone"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/numberOfComputers",
+    "@type" : "rdf:Property",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The total number of computers that can be used by students"
+    },
+    "domain" : "bot:Zone",
+    "isDefinedBy" : "https://territoire.emse.fr/kg/ontology/",
+    "label" : "number of computers",
+    "range" : "xsd:integer"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+    "@type" : "rdf:Property",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The total number of person that can theoretically occupy the zone"
+    },
+    "domain" : "bot:Zone",
+    "isDefinedBy" : "https://territoire.emse.fr/kg/ontology/",
+    "label" : "room capacity",
+    "range" : "xsd:integer"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+    "@type" : "rdf:Property",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Indicates that a zone is accessible to wheelchairs or wheeled objects from another zone"
+    },
+    "domain" : "bot:Zone",
+    "isDefinedBy" : "https://territoire.emse.fr/kg/ontology/",
+    "label" : {
+      "@language" : "en",
+      "@value" : "wheel accessible"
+    },
+    "range" : "bot:Zone",
+    "subPropertyOf" : "bot:adjacentZone"
+  } ],
+  "@context" : {
+    "subClassOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy",
+      "@type" : "@id"
+    },
+    "range" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#range",
+      "@type" : "@id"
+    },
+    "domain" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#domain",
+      "@type" : "@id"
+    },
+    "subPropertyOf" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#subPropertyOf",
+      "@type" : "@id"
+    },
+    "@vocab" : "https://territoire.emse.fr/kg/ontology/",
+    "schema" : "http://schema.org/",
+    "td" : "https://www.w3.org/2019/wot/td#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "bot" : "https://w3id.org/bot#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "pto" : "http://www.productontology.org/id/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "sosa" : "http://www.w3.org/ns/sosa/"
+  }
+}

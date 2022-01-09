@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:ssn="http://www.w3.org/ns/ssn/"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule">
+    <rdfs:label xml:lang="en">vestibule</rdfs:label>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity"/>
+    </seas:humidity>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity"/>
+    </seas:luminosity>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#interphone"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature">
+        <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/TemperatureProperty"/>
+      </seas:TemperatureProperty>
+    </seas:temperature>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <rdfs:comment xml:lang="en">A small vestibule at the entrance of the building of Mines Saint-Étienne at Espace Fauriel. There is an automatic glassdoor that opens to the outside and one that is activated by a badge that opens to the inside.</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <ssn:hasProperty rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature"/>
+  </bot:Space>
+</rdf:RDF>

@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement>
+        a                           bot:Space ;
+        rdfs:comment                "The part of the stairwell to basement that is at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                  "stairlanding to basement"@en ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/005> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/005> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/000> , <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/005> ;
+        bot:intersectsZone          <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity>
+        a       seas:LuminosityProperty .

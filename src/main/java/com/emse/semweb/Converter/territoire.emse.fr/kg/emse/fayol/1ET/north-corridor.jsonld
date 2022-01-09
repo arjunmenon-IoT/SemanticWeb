@@ -1,0 +1,65 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "North corridor at 1st floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "north corridor"
+    }, {
+      "@language" : "fr",
+      "@value" : "couloir nord"
+    } ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves", "https://territoire.emse.fr/kg/emse/fayol/1ET/103", "https://territoire.emse.fr/kg/emse/fayol/1ET/101F", "https://territoire.emse.fr/kg/emse/fayol/1ET/111", "https://territoire.emse.fr/kg/emse/fayol/1ET/104", "https://territoire.emse.fr/kg/emse/fayol/1ET/101H" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

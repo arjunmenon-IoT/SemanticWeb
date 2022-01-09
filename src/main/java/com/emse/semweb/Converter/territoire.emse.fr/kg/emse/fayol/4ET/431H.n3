@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H>
+        a                         territoire:Bathroom , bot:Space ;
+        rdfs:comment              "Men's bathroom on the South side of 4th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "South men's bathroom"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> , <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

@@ -1,0 +1,25 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor>
+        a                         bot:Space ;
+        rdfs:comment              "North corridor at 1st floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "north corridor"@en , "couloir nord"@fr ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> , <https://territoire.emse.fr/kg/emse/fayol/1ET/103> , <https://territoire.emse.fr/kg/emse/fayol/1ET/101F> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111> , <https://territoire.emse.fr/kg/emse/fayol/1ET/104> , <https://territoire.emse.fr/kg/emse/fayol/1ET/101H> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor#luminosity>
+        a       seas:LuminosityProperty .

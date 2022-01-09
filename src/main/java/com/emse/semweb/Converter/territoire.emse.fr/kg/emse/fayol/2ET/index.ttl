@@ -1,0 +1,12 @@
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/>
+        a                    bot:Storey ;
+        rdfs:comment         "This is the second floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en ;
+        rdfs:label           "second floor"@en , "deuxième étage"@fr ;
+        territoire:altitude  "570.81 m"^^cdt:ucum ;
+        bot:hasSpace         <https://territoire.emse.fr/kg/emse/fayol/2ET/230> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221> , <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone> , <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/2ET/231> , <https://territoire.emse.fr/kg/emse/fayol/2ET/200> , <https://territoire.emse.fr/kg/emse/fayol/2ET/232> , <https://territoire.emse.fr/kg/emse/fayol/2ET/223> , <https://territoire.emse.fr/kg/emse/fayol/2ET/202> , <https://territoire.emse.fr/kg/emse/fayol/2ET/224> , <https://territoire.emse.fr/kg/emse/fayol/2ET/220> , <https://territoire.emse.fr/kg/emse/fayol/2ET/201F> , <https://territoire.emse.fr/kg/emse/fayol/2ET/211> , <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/2ET/203> , <https://territoire.emse.fr/kg/emse/fayol/2ET/212> , <https://territoire.emse.fr/kg/emse/fayol/2ET/204> , <https://territoire.emse.fr/kg/emse/fayol/2ET/201H> , <https://territoire.emse.fr/kg/emse/fayol/2ET/234> , <https://territoire.emse.fr/kg/emse/fayol/2ET/214> , <https://territoire.emse.fr/kg/emse/fayol/2ET/206> , <https://territoire.emse.fr/kg/emse/fayol/2ET/207> ;
+        bot:intersectsZone   <https://territoire.emse.fr/kg/emse/fayol/stairwell> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .

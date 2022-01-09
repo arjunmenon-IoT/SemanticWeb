@@ -1,0 +1,65 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "South corridor at 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "south corridor"
+    }, {
+      "@language" : "fr",
+      "@value" : "couloir sud"
+    } ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/220", "https://territoire.emse.fr/kg/emse/fayol/2ET/224", "https://territoire.emse.fr/kg/emse/fayol/2ET/230", "https://territoire.emse.fr/kg/emse/fayol/2ET/223", "https://territoire.emse.fr/kg/emse/fayol/2ET/232", "https://territoire.emse.fr/kg/emse/fayol/2ET/231", "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone", "https://territoire.emse.fr/kg/emse/fayol/2ET/234", "https://territoire.emse.fr/kg/emse/fayol/2ET/221" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

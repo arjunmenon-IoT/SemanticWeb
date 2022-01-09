@@ -1,0 +1,47 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/012"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/000"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/000"/>
+    <bot:containsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/012"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#temperature"/>
+    </seas:temperature>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/000"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#humidity"/>
+    </seas:humidity>
+    <rdfs:comment xml:lang="en">The hall at the entrance of the building of Mines Saint-Étienne at Espace Fauriel.</rdfs:comment>
+    <rdfs:label xml:lang="en">entrance hall</rdfs:label>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/012"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#reception-desk"/>
+  </bot:Space>
+</rdf:RDF>

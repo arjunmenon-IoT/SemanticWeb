@@ -1,0 +1,19 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <http://www.w3.org/2000/01/rdf-schema#label> "office 521"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <http://www.w3.org/2000/01/rdf-schema#label> "office 521"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/521#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/523> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/521#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/521#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://territoire.emse.fr/kg/ontology/roomCapacity> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <http://www.w3.org/2000/01/rdf-schema#comment> "Office 521 at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/OfficeRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/521#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/521#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

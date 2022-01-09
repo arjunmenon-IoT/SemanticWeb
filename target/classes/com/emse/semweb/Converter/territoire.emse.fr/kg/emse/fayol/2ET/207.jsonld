@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207",
+    "@type" : [ "bot:Space", "territoire:ClassRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Classroom with 10 seats at 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "salle S2.07"
+    }, {
+      "@language" : "en",
+      "@value" : "room S2.07"
+    } ],
+    "territoire:roomCapacity" : 10,
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/207#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

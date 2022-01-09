@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "North corridor at 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "couloir nord"
+    }, {
+      "@language" : "en",
+      "@value" : "north corridor"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/202", "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone", "https://territoire.emse.fr/kg/emse/fayol/2ET/207", "https://territoire.emse.fr/kg/emse/fayol/2ET/212", "https://territoire.emse.fr/kg/emse/fayol/2ET/206", "https://territoire.emse.fr/kg/emse/fayol/2ET/211", "https://territoire.emse.fr/kg/emse/fayol/2ET/201H", "https://territoire.emse.fr/kg/emse/fayol/2ET/204", "https://territoire.emse.fr/kg/emse/fayol/2ET/201F", "https://territoire.emse.fr/kg/emse/fayol/2ET/203" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/206", "https://territoire.emse.fr/kg/emse/fayol/2ET/201H", "https://territoire.emse.fr/kg/emse/fayol/2ET/202", "https://territoire.emse.fr/kg/emse/fayol/2ET/212", "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone", "https://territoire.emse.fr/kg/emse/fayol/2ET/204", "https://territoire.emse.fr/kg/emse/fayol/2ET/207", "https://territoire.emse.fr/kg/emse/fayol/2ET/211", "https://territoire.emse.fr/kg/emse/fayol/2ET/201F", "https://territoire.emse.fr/kg/emse/fayol/2ET/203" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

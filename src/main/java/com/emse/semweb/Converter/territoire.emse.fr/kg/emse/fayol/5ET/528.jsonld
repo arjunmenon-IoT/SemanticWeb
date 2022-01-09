@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528",
+    "@type" : [ "territoire:MeetingRoom", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Salle de réunion 528 at 5th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "Salle de réunion 528"
+    }, {
+      "@language" : "en",
+      "@value" : "Meeting room 528"
+    } ],
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/5ET/522" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/528#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "asWKT" : "TODO"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211",
+    "@type" : [ "territoire:ComputerClassRoom", "bot:Space" ],
+    "hasGeometry" : "_:b0",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Computer room with 11 computers at 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "room S2.11"
+    }, {
+      "@language" : "fr",
+      "@value" : "salle S2.11"
+    } ],
+    "territoire:numberOfComputers" : 11,
+    "territoire:roomCapacity" : 18,
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor",
+    "hasElement" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer1", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer2", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer4", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer10", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer11", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer7", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer6", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer3", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer9", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer5", "https://territoire.emse.fr/kg/emse/fayol/2ET/211#computer8" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/211#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "asWKT" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#asWKT",
+      "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "hasGeometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "numberOfComputers" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/numberOfComputers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "geo" : "http://www.opengis.net/ont/geosparql#",
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

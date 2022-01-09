@@ -1,0 +1,16 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/503> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <http://www.w3.org/2000/01/rdf-schema#label> "North men's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/501F> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <http://www.w3.org/2000/01/rdf-schema#comment> "Men's bathroom on the North side of 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/501H#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

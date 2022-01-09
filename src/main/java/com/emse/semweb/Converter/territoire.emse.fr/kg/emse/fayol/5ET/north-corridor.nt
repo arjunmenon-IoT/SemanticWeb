@@ -1,0 +1,36 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/503> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/502> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <http://www.w3.org/2000/01/rdf-schema#label> "couloir nord"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/502> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/501H> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/507> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/507> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/505> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/508> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/511> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/505> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/504> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/506> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/501F> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <http://www.w3.org/2000/01/rdf-schema#comment> "North corridor at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <http://www.w3.org/2000/01/rdf-schema#label> "north corridor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/510> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/503> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/508> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/506> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/510> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/504> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/501F> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/511> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

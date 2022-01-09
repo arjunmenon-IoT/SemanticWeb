@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/104#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/104#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/104#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/104#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/104>
+        a                         territoire:Amphitheatre , bot:Space ;
+        rdfs:comment              "Lecture hall with projector, a computer for the lecturer, and 79 seats"@en ;
+        rdfs:label                "Amphi 104"@fr , "Amphi 104"@en ;
+        territoire:roomCapacity   79 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> ;
+        bot:hasElement            <https://territoire.emse.fr/kg/emse/fayol/1ET/104#projector> , <https://territoire.emse.fr/kg/emse/fayol/1ET/104#computer> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/1ET/104#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/1ET/104#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/1ET/104#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/1ET/104#temperature> .

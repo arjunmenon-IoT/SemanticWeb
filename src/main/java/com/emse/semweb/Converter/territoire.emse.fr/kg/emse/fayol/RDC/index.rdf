@@ -1,0 +1,45 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/">
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/005"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/000"/>
+    <rdfs:comment xml:lang="en">The ground floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/031"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/032"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020B"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/012"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink"/>
+    <rdfs:label xml:lang="en">ground floor</rdfs:label>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/021"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >562.03 m</territoire:altitude>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/025"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement"/>
+  </bot:Storey>
+</rdf:RDF>

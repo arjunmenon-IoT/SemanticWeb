@@ -1,0 +1,22 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/000#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of the stairwell that is at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/000#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/000#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <http://www.w3.org/2000/01/rdf-schema#label> "stairlanding ground floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/000#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/000#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

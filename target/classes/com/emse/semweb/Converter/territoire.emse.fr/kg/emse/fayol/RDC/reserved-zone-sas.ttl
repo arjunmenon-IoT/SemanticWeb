@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas>
+        a                           bot:Space ;
+        rdfs:comment                "Small sas connecting the corridor to the bathrooms to technical rooms, at the ground floor of Espace Fauriel, Mines Saint-Étienne"@fr ;
+        rdfs:label                  "sas de zone réservé"@fr , "reserved zone sas"@en ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/RDC/020B> , <https://territoire.emse.fr/kg/emse/fayol/RDC/020> , <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> , <https://territoire.emse.fr/kg/emse/fayol/RDC/020> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/020> , <https://territoire.emse.fr/kg/emse/fayol/RDC/021> , <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> , <https://territoire.emse.fr/kg/emse/fayol/RDC/020B> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas#humidity>
+        a       seas:HumidityProperty .

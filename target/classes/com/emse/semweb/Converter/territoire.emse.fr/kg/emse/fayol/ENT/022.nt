@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Amphitheatre> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/ENT/030> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <http://www.w3.org/2000/01/rdf-schema#comment> "Lecture hall with projector, a computer for the lecturer, and 162 seats"@en .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#projector> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <http://www.w3.org/2000/01/rdf-schema#label> "Amphi 022"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <http://www.w3.org/2000/01/rdf-schema#label> "Amphi 022"@en .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#computer> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://territoire.emse.fr/kg/ontology/roomCapacity> "162"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/ENT/022#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

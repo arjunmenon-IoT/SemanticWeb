@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <rdf:Description rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor">
+    <bot:containsZone>
+      <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/534">
+        <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/531F"/>
+        <seas:temperature>
+          <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/534#temperature"/>
+        </seas:temperature>
+        <rdfs:label xml:lang="en">Kitchen, coffee, lunch area</rdfs:label>
+        <seas:luminosity>
+          <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/534#luminosity"/>
+        </seas:luminosity>
+        <rdfs:comment xml:lang="en">Kitchen, coffee, lunch area on the South side of 5th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+        <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/532"/>
+        <seas:atmosphericPressure>
+          <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/534#atmosphericPressure"/>
+        </seas:atmosphericPressure>
+        <seas:humidity>
+          <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/534#humidity"/>
+        </seas:humidity>
+        <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/531F"/>
+        <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+      </bot:Space>
+    </bot:containsZone>
+  </rdf:Description>
+</rdf:RDF>

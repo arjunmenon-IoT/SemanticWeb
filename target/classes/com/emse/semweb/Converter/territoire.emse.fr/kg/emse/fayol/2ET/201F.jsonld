@@ -1,0 +1,63 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F",
+    "@type" : [ "territoire:Bathroom", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Women and persons with reduced mobility's bathroom on the North side of 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "North women and PRM's bathroom"
+    },
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/201F#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

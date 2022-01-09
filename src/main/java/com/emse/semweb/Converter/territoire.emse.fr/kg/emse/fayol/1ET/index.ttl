@@ -1,0 +1,12 @@
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/>
+        a                    bot:Storey ;
+        rdfs:comment         "This is the first floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en ;
+        rdfs:label           "first floor"@en , "premier étage"@fr ;
+        territoire:altitude  "567.14 m"^^cdt:ucum ;
+        bot:hasSpace         <https://territoire.emse.fr/kg/emse/fayol/1ET/101H> , <https://territoire.emse.fr/kg/emse/fayol/1ET/129> , <https://territoire.emse.fr/kg/emse/fayol/1ET/120> , <https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111> , <https://territoire.emse.fr/kg/emse/fayol/1ET/101F> , <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> , <https://territoire.emse.fr/kg/emse/fayol/1ET/121> , <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/1ET/134> , <https://territoire.emse.fr/kg/emse/fayol/1ET/131> , <https://territoire.emse.fr/kg/emse/fayol/1ET/103> , <https://territoire.emse.fr/kg/emse/fayol/1ET/100> , <https://territoire.emse.fr/kg/emse/fayol/1ET/132> , <https://territoire.emse.fr/kg/emse/fayol/1ET/104> ;
+        bot:intersectsZone   <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/stairwell> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .

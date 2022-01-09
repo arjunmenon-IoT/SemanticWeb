@@ -1,0 +1,76 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132",
+    "@type" : [ "territoire:ClassRoom", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Classroom with 40 seats and a projector at 1st floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "salle S1.32"
+    }, {
+      "@language" : "en",
+      "@value" : "room S1.32"
+    } ],
+    "territoire:roomCapacity" : 40,
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor",
+    "hasElement" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#projector",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/132#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

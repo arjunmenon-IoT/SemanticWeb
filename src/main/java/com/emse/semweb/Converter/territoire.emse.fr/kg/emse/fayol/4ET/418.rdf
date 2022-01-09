@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/418">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/416"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/418#luminosity"/>
+    </seas:luminosity>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/418#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <territoire:roomCapacity>TODO</territoire:roomCapacity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/416"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area"/>
+    <rdfs:label xml:lang="fr">meeting room 418</rdfs:label>
+    <rdfs:label xml:lang="en">meeting room 418</rdfs:label>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/418#humidity"/>
+    </seas:humidity>
+    <rdfs:comment xml:lang="en">Meeting room 418 at 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/418#temperature"/>
+    </seas:temperature>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/MeetingRoom"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/420B"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/420A"/>
+  </bot:Space>
+</rdf:RDF>

@@ -1,0 +1,33 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:ClassRoom rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206">
+    <rdfs:label xml:lang="en">room S2.06</rdfs:label>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >24</territoire:roomCapacity>
+    <bot:hasElement>
+      <rdf:Description rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206#projector">
+        <rdfs:comment xml:lang="fr">vidéo projecteur interactif Epson EB 575 WI</rdfs:comment>
+      </rdf:Description>
+    </bot:hasElement>
+    <rdfs:comment xml:lang="en">Classroom with 24 seats and a projector at 2nd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206#humidity"/>
+    </seas:humidity>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206#luminosity"/>
+    </seas:luminosity>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:label xml:lang="fr">salle S2.06</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/206#temperature"/>
+    </seas:temperature>
+  </territoire:ClassRoom>
+</rdf:RDF>

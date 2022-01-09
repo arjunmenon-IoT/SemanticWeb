@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025>
+        a                           territoire:TechnicianRoom , bot:Space ;
+        rdfs:comment                "A room reserved for technical staff and service agents, at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                  "cleaning local 025"@en , "local ménage 025"@fr ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

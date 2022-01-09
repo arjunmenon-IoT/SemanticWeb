@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/shower>
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/3ET/shower#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/3ET/shower#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/3ET/shower#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/3ET/shower#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/shower#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/shower#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/shower#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/shower#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women>
+        a                     territoire:Bathroom , bot:Space ;
+        rdfs:comment          "Shower on the 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label            "Shower"@en ;
+        territoire:canWalkTo  <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> ;
+        bot:adjacentZone      <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women> , <https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> .

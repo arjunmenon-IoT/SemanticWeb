@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement>
+        a                         bot:Space ;
+        rdfs:comment              "The stairwell to the basement of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "stairwell to basement"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> , <https://territoire.emse.fr/kg/emse/fayol/S-SOL/> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/S-SOL/> , <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> ;
+        bot:intersectsZone        <https://territoire.emse.fr/kg/emse/fayol/RDC/> , <https://territoire.emse.fr/kg/emse/fayol/S-SOL/> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement#humidity>
+        a       seas:HumidityProperty .

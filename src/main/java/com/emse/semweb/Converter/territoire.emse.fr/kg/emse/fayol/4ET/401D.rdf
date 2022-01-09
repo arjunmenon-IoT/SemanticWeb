@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:Bathroom rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401D">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401H"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401F"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401D#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401D#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="en">Shower</rdfs:label>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <rdfs:comment xml:lang="en">Shower on the 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401D#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401D#temperature"/>
+    </seas:temperature>
+  </territoire:Bathroom>
+</rdf:RDF>

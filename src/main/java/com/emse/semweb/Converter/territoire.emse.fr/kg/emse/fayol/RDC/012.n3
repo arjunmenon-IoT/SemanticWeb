@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012>
+        a                           bot:Space ;
+        rdfs:comment                "The main room of the IT’m factory, where most of the machines and facilities are."@en ;
+        rdfs:label                  "IT’m factory hall"@en , "room 012"@en ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> , <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> , <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity>
+        a       seas:LuminosityProperty .

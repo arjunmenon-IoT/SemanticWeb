@@ -1,0 +1,48 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor">
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/503"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/502"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area"/>
+    <rdfs:label xml:lang="fr">couloir nord</rdfs:label>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#humidity"/>
+    </seas:humidity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/502"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501H"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501H"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/507"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/507"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/505"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/508"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/511"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/505"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/504"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/506"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501F"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#temperature"/>
+    </seas:temperature>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor#luminosity"/>
+    </seas:luminosity>
+    <rdfs:comment xml:lang="en">North corridor at 5th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <rdfs:label xml:lang="en">north corridor</rdfs:label>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/510"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/503"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/508"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/506"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/510"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/504"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501F"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/511"/>
+  </bot:Space>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor>
+        a                         bot:Space ;
+        rdfs:comment              "South corridor at 4th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "couloir sud"@fr , "South corridor"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/4ET/422> , <https://territoire.emse.fr/kg/emse/fayol/4ET/426> , <https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area> , <https://territoire.emse.fr/kg/emse/fayol/4ET/431H> , <https://territoire.emse.fr/kg/emse/fayol/4ET/429> , <https://territoire.emse.fr/kg/emse/fayol/4ET/430> , <https://territoire.emse.fr/kg/emse/fayol/4ET/424> , <https://territoire.emse.fr/kg/emse/fayol/4ET/428> , <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> , <https://territoire.emse.fr/kg/emse/fayol/4ET/432> , <https://territoire.emse.fr/kg/emse/fayol/4ET/434> , <https://territoire.emse.fr/kg/emse/fayol/4ET/420B> , <https://territoire.emse.fr/kg/emse/fayol/4ET/421> , <https://territoire.emse.fr/kg/emse/fayol/4ET/423> , <https://territoire.emse.fr/kg/emse/fayol/4ET/425> , <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> , <https://territoire.emse.fr/kg/emse/fayol/4ET/420A> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/430> , <https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area> , <https://territoire.emse.fr/kg/emse/fayol/4ET/426> , <https://territoire.emse.fr/kg/emse/fayol/4ET/424> , <https://territoire.emse.fr/kg/emse/fayol/4ET/423> , <https://territoire.emse.fr/kg/emse/fayol/4ET/421> , <https://territoire.emse.fr/kg/emse/fayol/4ET/429> , <https://territoire.emse.fr/kg/emse/fayol/4ET/420B> , <https://territoire.emse.fr/kg/emse/fayol/4ET/420A> , <https://territoire.emse.fr/kg/emse/fayol/4ET/422> , <https://territoire.emse.fr/kg/emse/fayol/4ET/434> , <https://territoire.emse.fr/kg/emse/fayol/4ET/432> , <https://territoire.emse.fr/kg/emse/fayol/4ET/428> , <https://territoire.emse.fr/kg/emse/fayol/4ET/431H> , <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> , <https://territoire.emse.fr/kg/emse/fayol/4ET/425> ;
+        bot:containsZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> , <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

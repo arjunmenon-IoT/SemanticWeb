@@ -1,0 +1,74 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The part of the stairwell that is at the 6th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "stairlanding 6th floor"
+    },
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east", "https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea", "https://territoire.emse.fr/kg/emse/fayol/stairwell" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east" ],
+    "intersectsZone" : "https://territoire.emse.fr/kg/emse/fayol/stairwell",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/600#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@id" : "https://territoire.emse.fr/kg/emse/",
+  "@type" : "org:Organization",
+  "label" : {
+    "@language" : "fr",
+    "@value" : "École nationale supérieure des mines de Saint-Étienne"
+  },
+  "sameAs" : "dbr:École_nationale_supérieure_des_mines_de_Saint-Étienne",
+  "altLabel" : [ {
+    "@language" : "fr",
+    "@value" : "Mines Saint-Étienne"
+  }, "EMSE", {
+    "@language" : "fr",
+    "@value" : "École des mines de Saint-Étienne"
+  } ],
+  "hasPrimarySite" : "https://territoire.emse.fr/kg/emse/158cours-fauriel/",
+  "hasSite" : [ "https://territoire.emse.fr/kg/emse/158cours-fauriel/", "https://territoire.emse.fr/kg/emse/EF/", "https://territoire.emse.fr/kg/emse/cis/", "https://territoire.emse.fr/kg/emse/gardanne/" ],
+  "@context" : {
+    "hasSite" : {
+      "@id" : "http://www.w3.org/ns/org#hasSite",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+      "@type" : "@id"
+    },
+    "hasPrimarySite" : {
+      "@id" : "http://www.w3.org/ns/org#hasPrimarySite",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "dbr" : "http://dbpedia.org/resource/",
+    "org" : "http://www.w3.org/ns/org#",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

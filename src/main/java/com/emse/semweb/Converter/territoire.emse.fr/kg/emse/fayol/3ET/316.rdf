@@ -1,0 +1,33 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/316">
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/316#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/318"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/316#temperature"/>
+    </seas:temperature>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/314"/>
+    <rdfs:comment xml:lang="en">Office 316 at 3rd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <rdfs:label xml:lang="fr">office 316</rdfs:label>
+    <rdfs:label xml:lang="en">office 316</rdfs:label>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/316#luminosity"/>
+    </seas:luminosity>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</territoire:roomCapacity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/316#humidity"/>
+    </seas:humidity>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/OfficeRoom"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/314"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/318"/>
+  </bot:Space>
+</rdf:RDF>

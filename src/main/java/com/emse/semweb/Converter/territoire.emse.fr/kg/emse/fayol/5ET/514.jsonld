@@ -1,0 +1,75 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514",
+    "@type" : [ "bot:Space", "territoire:MeetingRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Meeting room 514 at 5th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "meeting room 514"
+    }, {
+      "@language" : "fr",
+      "@value" : "salle de réunion 514"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area", "https://territoire.emse.fr/kg/emse/fayol/5ET/516" ],
+    "roomCapacity" : "TODO",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/5ET/510", "https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/5ET/516", "https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/514#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

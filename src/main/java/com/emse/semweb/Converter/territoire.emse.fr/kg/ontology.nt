@@ -1,0 +1,57 @@
+<https://territoire.emse.fr/kg/ontology/Bathroom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/ontology/Bathroom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of rooms equipped with toilets and/or shower"@en .
+<https://territoire.emse.fr/kg/ontology/Bathroom> <http://www.w3.org/2000/01/rdf-schema#label> "Bathroom" .
+<https://territoire.emse.fr/kg/ontology/Bathroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://territoire.emse.fr/kg/ontology/> .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/2000/01/rdf-schema#comment> "The total number of person that can theoretically occupy the zone"@en .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/2000/01/rdf-schema#label> "room capacity" .
+<https://territoire.emse.fr/kg/ontology/roomCapacity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://territoire.emse.fr/kg/ontology/ComputerClassRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://territoire.emse.fr/kg/ontology/ClassRoom> .
+<https://territoire.emse.fr/kg/ontology/ComputerClassRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of classrooms that are equipped with computers"@en .
+<https://territoire.emse.fr/kg/ontology/ComputerClassRoom> <http://www.w3.org/2000/01/rdf-schema#label> "Computer Class Room" .
+<https://territoire.emse.fr/kg/ontology/ComputerClassRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/ClassRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/ontology/ClassRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of rooms that are dedicated to teaching"@en .
+<https://territoire.emse.fr/kg/ontology/ClassRoom> <http://www.w3.org/2000/01/rdf-schema#label> "Class Room" .
+<https://territoire.emse.fr/kg/ontology/ClassRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/MeetingRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/ontology/MeetingRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of rooms that are dedicated to meetings"@en .
+<https://territoire.emse.fr/kg/ontology/MeetingRoom> <http://www.w3.org/2000/01/rdf-schema#label> "Meeting Room" .
+<https://territoire.emse.fr/kg/ontology/MeetingRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/StorageRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/ontology/StorageRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of rooms that are dedicated to store things"@en .
+<https://territoire.emse.fr/kg/ontology/StorageRoom> <http://www.w3.org/2000/01/rdf-schema#label> "Storage Room" .
+<https://territoire.emse.fr/kg/ontology/StorageRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#adjacentZone> .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://territoire.emse.fr/kg/ontology/> .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicates that a zone is accessible to wheelchairs or wheeled objects from another zone"@en .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/2000/01/rdf-schema#label> "wheel accessible"@en .
+<https://territoire.emse.fr/kg/ontology/wheelAccessible> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://territoire.emse.fr/kg/ontology/OfficeRoom> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/ontology/OfficeRoom> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of rooms that are dedicated to offices"@en .
+<https://territoire.emse.fr/kg/ontology/OfficeRoom> <http://www.w3.org/2000/01/rdf-schema#label> "Office Room" .
+<https://territoire.emse.fr/kg/ontology/OfficeRoom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://territoire.emse.fr/kg/ontology/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the ontology for the Plateforme Territoire"@en .
+<https://territoire.emse.fr/kg/ontology/> <http://www.w3.org/2000/01/rdf-schema#label> "Territoire ontology"@en .
+<https://territoire.emse.fr/kg/ontology/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/bot#adjacentZone> .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://territoire.emse.fr/kg/ontology/> .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#comment> "links a zone to another zone that humans can walk to"@en .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/2000/01/rdf-schema#label> "can walk to"@en .
+<https://territoire.emse.fr/kg/ontology/canWalkTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://territoire.emse.fr/kg/ontology/> .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/bot#Zone> .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/2000/01/rdf-schema#comment> "The total number of computers that can be used by students"@en .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/2000/01/rdf-schema#label> "number of computers" .
+<https://territoire.emse.fr/kg/ontology/numberOfComputers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://territoire.emse.fr/kg/ontology/Amphitheatre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://territoire.emse.fr/kg/ontology/ClassRoom> .
+<https://territoire.emse.fr/kg/ontology/Amphitheatre> <http://www.w3.org/2000/01/rdf-schema#comment> "The class of amphitheatre class rooms"@en .
+<https://territoire.emse.fr/kg/ontology/Amphitheatre> <http://www.w3.org/2000/01/rdf-schema#label> "Amphitheatre" .
+<https://territoire.emse.fr/kg/ontology/Amphitheatre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

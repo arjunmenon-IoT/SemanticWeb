@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/">
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/230"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone"/>
+    <rdfs:comment xml:lang="en">This is the second floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/231"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/200"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/232"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/223"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/202"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/224"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/220"/>
+    <rdfs:label xml:lang="en">second floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/201F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/211"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/203"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/212"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/204"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/201H"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/234"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/214"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/206"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >570.81 m</territoire:altitude>
+    <rdfs:label xml:lang="fr">deuxième étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/207"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+  </bot:Storey>
+</rdf:RDF>

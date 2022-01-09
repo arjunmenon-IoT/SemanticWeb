@@ -1,0 +1,16 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/005> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/012> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <http://www.w3.org/2000/01/rdf-schema#comment> "The kitchen in the IT’m factory."@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/012> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/012> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <http://www.w3.org/2000/01/rdf-schema#label> "kitchen"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen#atmosphericPressure> .

@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/300>
+        a                         bot:Space , territoire:MeetingRoom ;
+        rdfs:comment              "Meeting room 300 at 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "meeting room 300"@fr , "meeting room 300"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/3ET/309> , <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/3ET/300#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/3ET/300#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/3ET/300#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/3ET/300#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/300#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/300#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/300#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/3ET/300#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

@@ -1,0 +1,65 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/131",
+    "@type" : [ "territoire:Bathroom", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Women and persons with reduced mobility's bathroom on the South side of 1st floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "South women and PRM's bathroom"
+    },
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/134#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/",
+  "@type" : "bot:Storey",
+  "comment" : {
+    "@language" : "en",
+    "@value" : "This is the sixth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."
+  },
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "sixth floor"
+  }, {
+    "@language" : "fr",
+    "@value" : "sixième étage"
+  } ],
+  "hasSpace" : [ "https://territoire.emse.fr/kg/emse/fayol/6ET/605", "https://territoire.emse.fr/kg/emse/fayol/6ET/terrace", "https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea", "https://territoire.emse.fr/kg/emse/fayol/6ET/620", "https://territoire.emse.fr/kg/emse/fayol/6ET/600", "https://territoire.emse.fr/kg/emse/fayol/6ET/603", "https://territoire.emse.fr/kg/emse/fayol/6ET/607", "https://territoire.emse.fr/kg/emse/fayol/6ET/610", "https://territoire.emse.fr/kg/emse/fayol/6ET/634", "https://territoire.emse.fr/kg/emse/fayol/6ET/609", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm", "https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/6ET/604", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women", "https://territoire.emse.fr/kg/emse/fayol/6ET/611" ],
+  "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east", "https://territoire.emse.fr/kg/emse/fayol/stairwell", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west" ],
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasSpace" : {
+      "@id" : "https://w3id.org/bot#hasSpace",
+      "@type" : "@id"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

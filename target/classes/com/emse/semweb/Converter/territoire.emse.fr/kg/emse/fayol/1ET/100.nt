@@ -1,0 +1,15 @@
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/1ET/100#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/1ET/100#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/1ET/100#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/1ET/100#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of the stairwell that is at the 1st floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100> <http://www.w3.org/2000/01/rdf-schema#label> "stairlanding 1st floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/100#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

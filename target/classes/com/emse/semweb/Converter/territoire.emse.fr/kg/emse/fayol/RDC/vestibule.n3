@@ -1,0 +1,31 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ssn:   <http://www.w3.org/ns/ssn/> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule>
+        a                           bot:Space ;
+        rdfs:comment                "A small vestibule at the entrance of the building of Mines Saint-Étienne at Espace Fauriel. There is an automatic glassdoor that opens to the outside and one that is activated by a badge that opens to the inside."@en ;
+        rdfs:label                  "vestibule"@en ;
+        ssn:hasProperty             <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> ;
+        bot:hasElement              <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#interphone> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature>
+        a       seas:TemperatureProperty , territoire:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity>
+        a       seas:LuminosityProperty .

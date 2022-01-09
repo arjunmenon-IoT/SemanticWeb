@@ -1,0 +1,32 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/111#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/111>
+        a                             territoire:ComputerClassRoom , bot:Space ;
+        rdfs:comment                  "Computer room with 14 computers and a projector at 1st floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                    "salle S1.11"@fr , "room S1.11"@en ;
+        geo:hasGeometry               [ geo:asWKT
+                          "TODO"^^geo:wktLiteral ] ;
+        territoire:numberOfComputers  14 ;
+        territoire:roomCapacity       28 ;
+        bot:adjacentZone              <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> ;
+        bot:hasElement                <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer3> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer14> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer12> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer6> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer9> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer1> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#projector> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer10> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer4> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer7> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer13> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer2> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer5> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer11> , <https://territoire.emse.fr/kg/emse/fayol/1ET/111#computer8> ;
+        seas:atmosphericPressure      <https://territoire.emse.fr/kg/emse/fayol/1ET/111#atmosphericPressure> ;
+        seas:humidity                 <https://territoire.emse.fr/kg/emse/fayol/1ET/111#humidity> ;
+        seas:luminosity               <https://territoire.emse.fr/kg/emse/fayol/1ET/111#luminosity> ;
+        seas:temperature              <https://territoire.emse.fr/kg/emse/fayol/1ET/111#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/111#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/111#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/111#luminosity>
+        a       seas:LuminosityProperty .

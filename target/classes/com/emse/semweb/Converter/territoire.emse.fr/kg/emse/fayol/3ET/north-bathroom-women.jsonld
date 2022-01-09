@@ -1,0 +1,68 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women",
+    "@type" : [ "bot:Space", "territoire:Bathroom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Women's bathroom on the North side of 3rd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "North women's bathroom"
+    },
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/3ET/shower", "https://territoire.emse.fr/kg/emse/fayol/3ET/308", "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

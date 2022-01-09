@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves">
+    <rdfs:comment xml:lang="fr">Area for students to relax between classes, with sofa, coffee machines, tables</rdfs:comment>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity"/>
+    </seas:luminosity>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/100"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#coffee-machine"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#vending-machine"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="fr">espace élève</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor"/>
+    <rdfs:label xml:lang="en">student space</rdfs:label>
+  </bot:Space>
+</rdf:RDF>

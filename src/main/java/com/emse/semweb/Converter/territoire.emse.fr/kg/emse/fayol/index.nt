@@ -1,0 +1,58 @@
+_:Bc0ef92ca4486bc77446bc96e199dbfb5 <https://w3id.org/seas/evaluatedSimpleValue> "6580 m2"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+_:Bc0ef92ca4486bc77446bc96e199dbfb5 <https://w3id.org/seas/evaluatedProperty> <https://territoire.emse.fr/kg/emse/fayol/#surface> .
+_:Bc0ef92ca4486bc77446bc96e199dbfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/ApproximateEvaluation> .
+_:Bc0ef92ca4486bc77446bc96e199dbfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HeatedSurfaceEvaluation> .
+_:Bc0ef92ca4486bc77446bc96e199dbfb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Evaluation> .
+_:Bd0cff351f7d312ea384cb4f0d67a99d6 <https://w3id.org/seas/sumDuration> "PT10M"^^<http://www.w3.org/2001/XMLSchema#duration> .
+_:Bd0cff351f7d312ea384cb4f0d67a99d6 <https://w3id.org/seas/sumProperty> <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+_:Bd0cff351f7d312ea384cb4f0d67a99d6 <https://w3id.org/seas/summedProperty> <https://territoire.emse.fr/kg/emse/fayol/#consumedPower> .
+_:Bd0cff351f7d312ea384cb4f0d67a99d6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/FixedDurationSum> .
+<https://territoire.emse.fr/kg/emse/fayol/#consumedPower> <https://w3id.org/seas/derivesFrom> <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+<https://territoire.emse.fr/kg/emse/fayol/#consumedPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Property> .
+<https://territoire.emse.fr/kg/emse/fayol/#consumedPower> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/ElectricPowerProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo> <http://example.org/referencePoint> "POINT( )" .
+<https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo> <http://www.w3.org/2000/01/rdf-schema#comment> "Transformation géodésique" .
+<https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/ignf#Transformation> .
+_:Ba4a7f73c908ed5d8b953fa64b04c44f6 <http://example.org/sg> "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> Point(0 0)"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .
+_:Bd932b5b373bedd373d92b73c83fbe8d2 <https://w3id.org/seas/evaluatedSimpleValue> "65 kWh"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+_:Bd932b5b373bedd373d92b73c83fbe8d2 <https://w3id.org/seas/hasTemporalContext> _:Bc8cbb352669abf962a8f03e6ddfc2c4a .
+_:Bd932b5b373bedd373d92b73c83fbe8d2 <https://w3id.org/seas/evaluatedValue> <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+_:Bd932b5b373bedd373d92b73c83fbe8d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/InstantaneousEvaluation> .
+_:Bd932b5b373bedd373d92b73c83fbe8d2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Evaluation> .
+<https://territoire.emse.fr/kg/emse/fayol/#crs> <http://www.w3.org/2000/01/rdf-schema#comment> "Système de coordonnées de référence cartésien métrique conforme aux fichiers DWG. L'origine est près de la porte coupe-feu qui sépare la salle d'attente et le couloir nord, approximativement au milieu du mur porteur. L'axe x est orienté approximativement vers le sud-est-est, l'axe y est orienté approximativement vers le nord-nord-est, l'axe z est orienté vers le haut." .
+<https://territoire.emse.fr/kg/emse/fayol/#crs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<https://territoire.emse.fr/kg/emse/fayol/#crs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/ignf#CartesianCS> .
+_:Bc8cbb352669abf962a8f03e6ddfc2c4a <http://www.w3.org/2006/time#inXSDDateTime> "2020-01-02T00:10:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+_:B53b8afa1eba767e1d53687738499f6f6 <http://www.w3.org/2006/time#inXSDDateTime> "2020-01-02T00:00:00+01:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Property> .
+<https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/ElectricEnergyProperty> .
+_:Bea1b71a9c50f1ab02d719f04ab14d80b <https://w3id.org/seas/evaluatedSimpleValue> "6720 m2"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+_:Bea1b71a9c50f1ab02d719f04ab14d80b <https://w3id.org/seas/evaluatedProperty> <https://territoire.emse.fr/kg/emse/fayol/#surface> .
+_:Bea1b71a9c50f1ab02d719f04ab14d80b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/ApproximateEvaluation> .
+_:Bea1b71a9c50f1ab02d719f04ab14d80b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TotalEvaluation> .
+_:Bea1b71a9c50f1ab02d719f04ab14d80b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Evaluation> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/org#Site> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/RDC/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/2000/01/rdf-schema#comment> "The building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/4ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/1ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/seas/incomingElectricPower> <https://territoire.emse.fr/kg/emse/fayol/#consumedPower> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/ENT/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Building> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/2000/01/rdf-schema#label> "bâtiment EMSE Espace Fauriel"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/ns/org#siteOf> <https://territoire.emse.fr/kg/emse/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/ElectricPowerConsumer> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/seas/incomingElectricEnergy> <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/3ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/6ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/5ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/2ET/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <http://www.w3.org/ns/org#siteAddress> <http://id.osmfr.org/bano/422187242M-29> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/seas/surface> <https://territoire.emse.fr/kg/emse/fayol/#surface> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/TER/> .
+<https://territoire.emse.fr/kg/emse/fayol/> <https://w3id.org/bot#hasStorey> <https://territoire.emse.fr/kg/emse/fayol/S-SOL/> .
+_:B0546e8efaf671923464387a70fc1d5c5 <https://w3id.org/seas/evaluatedSimpleValue> "50 kWh"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+_:B0546e8efaf671923464387a70fc1d5c5 <https://w3id.org/seas/hasTemporalContext> _:B53b8afa1eba767e1d53687738499f6f6 .
+_:B0546e8efaf671923464387a70fc1d5c5 <https://w3id.org/seas/evaluatedValue> <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+_:B0546e8efaf671923464387a70fc1d5c5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/InstantaneousEvaluation> .
+_:B0546e8efaf671923464387a70fc1d5c5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Evaluation> .

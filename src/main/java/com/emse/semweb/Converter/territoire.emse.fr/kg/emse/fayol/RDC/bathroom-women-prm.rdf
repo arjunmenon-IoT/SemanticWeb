@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:Bathroom rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm">
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020B"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdfs:label xml:lang="en">women and PRM's bathroom</rdfs:label>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm#luminosity"/>
+    </seas:luminosity>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="fr">toilettes femmes et PMR</rdfs:label>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <rdfs:comment xml:lang="en">Women and persons with reduced mobility's bathroom at the ground floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/021"/>
+  </territoire:Bathroom>
+</rdf:RDF>

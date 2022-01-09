@@ -1,0 +1,50 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/221">
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer14"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer10"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer20"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer17"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer6"/>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >40</territoire:roomCapacity>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer16"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer1"/>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/ComputerClassRoom"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer12"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer8"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer19"/>
+    <rdfs:comment xml:lang="en">Computer room with 20 computers at 2nd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer13"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer18"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer3"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/221#temperature"/>
+    </seas:temperature>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer7"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/221#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer2"/>
+    <territoire:numberOfcomputers rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >20</territoire:numberOfcomputers>
+    <rdfs:label xml:lang="fr">salle S2.21</rdfs:label>
+    <rdfs:label xml:lang="en">room S2.21</rdfs:label>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/221#luminosity"/>
+    </seas:luminosity>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer15"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer9"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/221#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer11"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer4"/>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer5"/>
+  </bot:Space>
+</rdf:RDF>

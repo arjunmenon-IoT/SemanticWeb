@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431F#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431F#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431F>
+        a                         territoire:Bathroom , bot:Space ;
+        rdfs:comment              "Women and persons with reduced mobility's bathroom on the South side of 4th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "South women and PRM's bathroom"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/4ET/431H> , <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/4ET/431F#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/4ET/431F#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/4ET/431F#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/4ET/431F#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431F#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431F#temperature>
+        a       seas:TemperatureProperty .

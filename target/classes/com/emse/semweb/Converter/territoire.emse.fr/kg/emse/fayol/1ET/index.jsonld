@@ -1,0 +1,42 @@
+{
+  "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/",
+  "@type" : "bot:Storey",
+  "comment" : {
+    "@language" : "en",
+    "@value" : "This is the first floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."
+  },
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "first floor"
+  }, {
+    "@language" : "fr",
+    "@value" : "premier étage"
+  } ],
+  "altitude" : "567.14 m",
+  "hasSpace" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/101H", "https://territoire.emse.fr/kg/emse/fayol/1ET/129", "https://territoire.emse.fr/kg/emse/fayol/1ET/120", "https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/1ET/111", "https://territoire.emse.fr/kg/emse/fayol/1ET/101F", "https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves", "https://territoire.emse.fr/kg/emse/fayol/1ET/121", "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/1ET/134", "https://territoire.emse.fr/kg/emse/fayol/1ET/131", "https://territoire.emse.fr/kg/emse/fayol/1ET/103", "https://territoire.emse.fr/kg/emse/fayol/1ET/100", "https://territoire.emse.fr/kg/emse/fayol/1ET/132", "https://territoire.emse.fr/kg/emse/fayol/1ET/104" ],
+  "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west", "https://territoire.emse.fr/kg/emse/fayol/stairwell", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east" ],
+  "@context" : {
+    "hasSpace" : {
+      "@id" : "https://w3id.org/bot#hasSpace",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "altitude" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/altitude",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

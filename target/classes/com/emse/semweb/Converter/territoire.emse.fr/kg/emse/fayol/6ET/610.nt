@@ -1,0 +1,29 @@
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/6ET/610#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/ClassRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/604> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/6ET/610#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/604> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/605> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/603> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <http://www.w3.org/2000/01/rdf-schema#comment> "Class room 610 at 6th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/607> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/609> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/603> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/609> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/607> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/611> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/611> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/605> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/6ET/610#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/6ET/610#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <http://www.w3.org/2000/01/rdf-schema#label> "class room 610"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/610> <http://www.w3.org/2000/01/rdf-schema#label> "class room 610"@en .

@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas",
+    "@type" : [ "bot:Space", "territoire:TechnicianRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A sas to go to the amphitheatre 022 or the technical room 030"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "sas amphitheatre 022"
+    }, {
+      "@language" : "en",
+      "@value" : "sas amphitheatre 022"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/030", "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding", "https://territoire.emse.fr/kg/emse/fayol/ENT/022" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/030", "https://territoire.emse.fr/kg/emse/fayol/ENT/022", "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

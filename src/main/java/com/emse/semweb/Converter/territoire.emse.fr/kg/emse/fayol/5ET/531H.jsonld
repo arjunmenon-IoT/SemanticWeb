@@ -1,0 +1,68 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H",
+    "@type" : [ "bot:Space", "territoire:Bathroom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Men's bathroom on the South side of 5th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "South men's bathroom"
+    },
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/5ET/531F" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/5ET/531H#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

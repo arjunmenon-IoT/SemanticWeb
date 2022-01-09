@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:OfficeRoom rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/526">
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/526#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdfs:comment xml:lang="en">Office 526 at 5th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/530"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/524"/>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</territoire:roomCapacity>
+    <rdfs:label xml:lang="fr">office 526</rdfs:label>
+    <rdfs:label xml:lang="en">office 526</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/526#temperature"/>
+    </seas:temperature>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/526#luminosity"/>
+    </seas:luminosity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/526#humidity"/>
+    </seas:humidity>
+  </territoire:OfficeRoom>
+</rdf:RDF>

@@ -1,0 +1,11 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur>
+        a             seas:MaterialType ;
+        rdfs:comment  "Murs en pierre (calcaire ferme) 50 cm + PSE 8 cm"@fr ;
+        seas:Uvalue   <https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue> .
+
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue>
+        seas:value  "0.33 W/(m2.K)"^^cdt:ucum .

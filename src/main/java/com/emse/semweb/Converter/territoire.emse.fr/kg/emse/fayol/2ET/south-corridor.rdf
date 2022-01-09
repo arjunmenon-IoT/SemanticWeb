@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor">
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/220"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/224"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/230"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="en">south corridor</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/223"/>
+    <rdfs:comment xml:lang="en">South corridor at 2nd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/232"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/231"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/234"/>
+    <rdfs:label xml:lang="fr">couloir sud</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/221"/>
+  </bot:Space>
+</rdf:RDF>

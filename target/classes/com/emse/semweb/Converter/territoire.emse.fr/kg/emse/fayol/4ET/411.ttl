@@ -1,0 +1,43 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix ignf:  <http://data.ign.fr/def/ignf#> .
+@prefix s4syst: <https://saref.etsi.org/saref4syst/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411>
+        a                         territoire:OfficeRoom , geo:SpatialFeature , bot:Space ;
+        rdfs:comment              "Office 411 at 4th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "office 411"@fr , "office 411"@en ;
+        geo:hasGeometry           [ geo:asWKT  "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> POLYGON()"^^geo:WKTLiteral ] ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> ;
+        territoire:roomCapacity   2 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/4ET/409> , <https://territoire.emse.fr/kg/emse/fayol/4ET/400> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#crs>
+        a             ignf:CoordinateSystem , ignf:CartesianCS ;
+        rdfs:comment  "Système de coordonnées de référence cartésien métrique, positionné au sol entre la porte et le placard électrique. x vers la porte, y vers le haut, z vers les fenêtres." .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door>
+        a                      s4syst:Connection , seas:Door ;
+        s4syst:connectsSystem  <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/4ET/411> ;
+        seas:openCloseStatus   <https://territoire.emse.fr/kg/emse/fayol/4ET/411#door_status> ;
+        seas:width             "84 cm"^^cdt:ucum .
+
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature>
+        a       seas:TemperatureProperty .

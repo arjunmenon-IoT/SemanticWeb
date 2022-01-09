@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men">
+    <rdfs:label xml:lang="fr">toilettes hommes</rdfs:label>
+    <territoire:wheelAccessible rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020B"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <rdfs:comment xml:lang="en">Men's bathroom at the ground floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm"/>
+    <rdfs:label xml:lang="en">men's bathroom</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/025"/>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/Bathroom"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men#humidity"/>
+    </seas:humidity>
+  </bot:Space>
+</rdf:RDF>

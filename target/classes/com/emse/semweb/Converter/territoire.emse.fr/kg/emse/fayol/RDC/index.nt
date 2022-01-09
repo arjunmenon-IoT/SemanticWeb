@@ -1,0 +1,36 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/005> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/000> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <http://www.w3.org/2000/01/rdf-schema#comment> "The ground floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/031> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/032> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/020B> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Storey> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/012> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <http://www.w3.org/2000/01/rdf-schema#label> "ground floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/021> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://territoire.emse.fr/kg/ontology/altitude> "562.03 m"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/025> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> .

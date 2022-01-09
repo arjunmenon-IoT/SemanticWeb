@@ -1,0 +1,48 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/">
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/516"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/525"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/520"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/507"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/506"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/531F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/514"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/524"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/500"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/530"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/510"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/529"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/505"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >581.81 m</territoire:altitude>
+    <rdfs:comment xml:lang="en">This is the fifth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <rdfs:label xml:lang="fr">cinquième étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/523"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/528"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/504"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/511"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/503"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/502"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/534"/>
+    <rdfs:label xml:lang="en">fifth floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/522"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/501H"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/532"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/521"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/526"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/508"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/531H"/>
+  </bot:Storey>
+</rdf:RDF>

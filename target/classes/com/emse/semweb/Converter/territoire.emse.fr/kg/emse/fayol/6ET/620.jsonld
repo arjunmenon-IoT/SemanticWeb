@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620",
+    "@type" : [ "bot:Space", "territoire:MeetingRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Reception room 620 at 6th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "reception room 620"
+    }, {
+      "@language" : "fr",
+      "@value" : "salle de reception 620"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women", "https://territoire.emse.fr/kg/emse/fayol/6ET/terrace", "https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm", "https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/6ET/634" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women", "https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm", "https://territoire.emse.fr/kg/emse/fayol/6ET/634", "https://territoire.emse.fr/kg/emse/fayol/6ET/terrace", "https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/6ET/620#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

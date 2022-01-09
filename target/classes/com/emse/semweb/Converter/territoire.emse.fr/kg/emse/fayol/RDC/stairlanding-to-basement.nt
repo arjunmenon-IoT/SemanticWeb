@@ -1,0 +1,21 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/005> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/000> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <http://www.w3.org/2000/01/rdf-schema#comment> "The part of the stairwell to basement that is at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <http://www.w3.org/2000/01/rdf-schema#label> "stairlanding to basement"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/005> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/005> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

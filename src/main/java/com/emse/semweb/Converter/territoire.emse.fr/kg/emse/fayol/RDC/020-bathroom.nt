@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <http://www.w3.org/2000/01/rdf-schema#comment> "Bathroom in room 020 at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <http://www.w3.org/2000/01/rdf-schema#label> "room 020 bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/020> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <http://www.w3.org/2000/01/rdf-schema#label> "toilettes pièce 020"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

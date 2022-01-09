@@ -1,0 +1,11 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/plancher_intermediaire#uvalue>
+        seas:value  "2.75 W/(m2.K)"^^cdt:ucum .
+
+<https://territoire.emse.fr/kg/emse/fayol/plancher_intermediaire>
+        a             seas:MaterialType ;
+        rdfs:comment  "Béton plein 20 cm"@fr ;
+        seas:Uvalue   <https://territoire.emse.fr/kg/emse/fayol/plancher_intermediaire#uvalue> .

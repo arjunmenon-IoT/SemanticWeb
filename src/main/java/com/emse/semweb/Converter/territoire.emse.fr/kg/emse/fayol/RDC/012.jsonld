@@ -1,0 +1,76 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The main room of the IT’m factory, where most of the machines and facilities are."
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "IT’m factory hall"
+    }, {
+      "@language" : "en",
+      "@value" : "room 012"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room", "https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall" ],
+    "wheelAccessible" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen", "https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "wheelAccessible" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

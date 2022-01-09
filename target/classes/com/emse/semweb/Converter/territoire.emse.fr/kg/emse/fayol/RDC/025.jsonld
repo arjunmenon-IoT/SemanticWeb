@@ -1,0 +1,76 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025",
+    "@type" : [ "territoire:TechnicianRoom", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A room reserved for technical staff and service agents, at the ground floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "en",
+      "@value" : "cleaning local 025"
+    }, {
+      "@language" : "fr",
+      "@value" : "local ménage 025"
+    } ],
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms",
+    "wheelAccessible" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "wheelAccessible" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

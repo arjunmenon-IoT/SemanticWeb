@@ -1,0 +1,83 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:sosa="http://www.w3.org/ns/sosa/"
+    xmlns:schema="http://schema.org/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:td="https://www.w3.org/2019/wot/td#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:pto="http://www.productontology.org/id/"
+    xmlns="https://territoire.emse.fr/kg/ontology/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="https://territoire.emse.fr/kg/ontology/">
+    <rdfs:comment xml:lang="en">This is the ontology for the Plateforme Territoire</rdfs:comment>
+    <rdfs:label xml:lang="en">Territoire ontology</rdfs:label>
+  </owl:Ontology>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/MeetingRoom">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:comment xml:lang="en">The class of rooms that are dedicated to meetings</rdfs:comment>
+    <rdfs:label>Meeting Room</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/ComputerClassRoom">
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/ClassRoom"/>
+    </rdfs:subClassOf>
+    <rdfs:comment xml:lang="en">The class of classrooms that are equipped with computers</rdfs:comment>
+    <rdfs:label>Computer Class Room</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/OfficeRoom">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:comment xml:lang="en">The class of rooms that are dedicated to offices</rdfs:comment>
+    <rdfs:label>Office Room</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/StorageRoom">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:comment xml:lang="en">The class of rooms that are dedicated to store things</rdfs:comment>
+    <rdfs:label>Storage Room</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/ClassRoom">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:comment xml:lang="en">The class of rooms that are dedicated to teaching</rdfs:comment>
+    <rdfs:label>Class Room</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/Bathroom">
+    <rdfs:subClassOf rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:comment xml:lang="en">The class of rooms equipped with toilets and/or shower</rdfs:comment>
+    <rdfs:label>Bathroom</rdfs:label>
+  </owl:Class>
+  <owl:Class rdf:about="https://territoire.emse.fr/kg/ontology/Amphitheatre">
+    <rdfs:subClassOf rdf:resource="https://territoire.emse.fr/kg/ontology/ClassRoom"/>
+    <rdfs:comment xml:lang="en">The class of amphitheatre class rooms</rdfs:comment>
+    <rdfs:label>Amphitheatre</rdfs:label>
+  </owl:Class>
+  <rdf:Property rdf:about="https://territoire.emse.fr/kg/ontology/wheelAccessible">
+    <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#adjacentZone"/>
+    <rdfs:isDefinedBy rdf:resource="https://territoire.emse.fr/kg/ontology/"/>
+    <rdfs:comment xml:lang="en">Indicates that a zone is accessible to wheelchairs or wheeled objects from another zone</rdfs:comment>
+    <rdfs:label xml:lang="en">wheel accessible</rdfs:label>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://territoire.emse.fr/kg/ontology/numberOfComputers">
+    <rdfs:isDefinedBy rdf:resource="https://territoire.emse.fr/kg/ontology/"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:comment xml:lang="en">The total number of computers that can be used by students</rdfs:comment>
+    <rdfs:label>number of computers</rdfs:label>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://territoire.emse.fr/kg/ontology/roomCapacity">
+    <rdfs:isDefinedBy rdf:resource="https://territoire.emse.fr/kg/ontology/"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:comment xml:lang="en">The total number of person that can theoretically occupy the zone</rdfs:comment>
+    <rdfs:label>room capacity</rdfs:label>
+  </rdf:Property>
+  <rdf:Property rdf:about="https://territoire.emse.fr/kg/ontology/canWalkTo">
+    <rdfs:range rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:domain rdf:resource="https://w3id.org/bot#Zone"/>
+    <rdfs:subPropertyOf rdf:resource="https://w3id.org/bot#adjacentZone"/>
+    <rdfs:isDefinedBy rdf:resource="https://territoire.emse.fr/kg/ontology/"/>
+    <rdfs:comment xml:lang="en">links a zone to another zone that humans can walk to</rdfs:comment>
+    <rdfs:label xml:lang="en">can walk to</rdfs:label>
+  </rdf:Property>
+</rdf:RDF>

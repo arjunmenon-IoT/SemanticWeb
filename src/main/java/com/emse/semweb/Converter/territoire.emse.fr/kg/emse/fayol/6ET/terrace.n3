@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace>
+        a                         bot:Space ;
+        rdfs:comment              "The 6th floor terrace of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "Terrace 6th floor"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> , <https://territoire.emse.fr/kg/emse/fayol/6ET/610> , <https://territoire.emse.fr/kg/emse/fayol/6ET/604> , <https://territoire.emse.fr/kg/emse/fayol/6ET/620> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> , <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/6ET/604> , <https://territoire.emse.fr/kg/emse/fayol/6ET/610> , <https://territoire.emse.fr/kg/emse/fayol/6ET/620> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#humidity>
+        a       seas:HumidityProperty .

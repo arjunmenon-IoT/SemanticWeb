@@ -1,0 +1,30 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/406">
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/406#temperature"/>
+    </seas:temperature>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/OfficeRoom"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/408"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/406#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdfs:comment xml:lang="en">Office 406 at 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/406#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/404"/>
+    <rdfs:label xml:lang="fr">office 406</rdfs:label>
+    <rdfs:label xml:lang="en">office 406</rdfs:label>
+    <territoire:roomCapacity>TODO</territoire:roomCapacity>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/406#luminosity"/>
+    </seas:luminosity>
+  </bot:Space>
+</rdf:RDF>

@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/200"/>
+    <rdfs:label xml:lang="fr">espace imprimante</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor"/>
+    <rdfs:label xml:lang="en">printer zone</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/214"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#temperature"/>
+    </seas:temperature>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#humidity"/>
+    </seas:humidity>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#printer"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#luminosity"/>
+    </seas:luminosity>
+    <rdfs:comment xml:lang="en">Area with a printer joining the two corridors at the 2nd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+  </bot:Space>
+</rdf:RDF>

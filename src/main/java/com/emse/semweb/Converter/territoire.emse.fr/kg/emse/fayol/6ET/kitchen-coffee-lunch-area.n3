@@ -1,0 +1,30 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area>
+        a                         bot:Space ;
+        rdfs:comment              "Kitchen, coffee, lunch area on the south side of 6th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "Kitchen, coffee, lunch area"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/6ET/620> , <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> , <https://territoire.emse.fr/kg/emse/fayol/6ET/634> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620>
+        bot:containsZone  <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

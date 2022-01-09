@@ -1,0 +1,13 @@
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/1ET/131#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/1ET/131#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/1ET/131#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/1ET/131#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <http://www.w3.org/2000/01/rdf-schema#comment> "Men's bathroom on the South side of 1st floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <http://www.w3.org/2000/01/rdf-schema#label> "South men's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/131#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

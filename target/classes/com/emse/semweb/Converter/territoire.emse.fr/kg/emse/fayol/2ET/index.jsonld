@@ -1,0 +1,42 @@
+{
+  "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/",
+  "@type" : "bot:Storey",
+  "comment" : {
+    "@language" : "en",
+    "@value" : "This is the second floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."
+  },
+  "label" : [ {
+    "@language" : "en",
+    "@value" : "second floor"
+  }, {
+    "@language" : "fr",
+    "@value" : "deuxième étage"
+  } ],
+  "altitude" : "570.81 m",
+  "hasSpace" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/230", "https://territoire.emse.fr/kg/emse/fayol/2ET/221", "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone", "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/2ET/231", "https://territoire.emse.fr/kg/emse/fayol/2ET/200", "https://territoire.emse.fr/kg/emse/fayol/2ET/232", "https://territoire.emse.fr/kg/emse/fayol/2ET/223", "https://territoire.emse.fr/kg/emse/fayol/2ET/202", "https://territoire.emse.fr/kg/emse/fayol/2ET/224", "https://territoire.emse.fr/kg/emse/fayol/2ET/220", "https://territoire.emse.fr/kg/emse/fayol/2ET/201F", "https://territoire.emse.fr/kg/emse/fayol/2ET/211", "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/2ET/203", "https://territoire.emse.fr/kg/emse/fayol/2ET/212", "https://territoire.emse.fr/kg/emse/fayol/2ET/204", "https://territoire.emse.fr/kg/emse/fayol/2ET/201H", "https://territoire.emse.fr/kg/emse/fayol/2ET/234", "https://territoire.emse.fr/kg/emse/fayol/2ET/214", "https://territoire.emse.fr/kg/emse/fayol/2ET/206", "https://territoire.emse.fr/kg/emse/fayol/2ET/207" ],
+  "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/stairwell", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east" ],
+  "@context" : {
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "hasSpace" : {
+      "@id" : "https://w3id.org/bot#hasSpace",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "altitude" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/altitude",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

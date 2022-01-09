@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/">
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/101H"/>
+    <rdfs:label xml:lang="en">first floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/129"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/120"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >567.14 m</territoire:altitude>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/111"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/101F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/121"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/134"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/131"/>
+    <rdfs:comment xml:lang="en">This is the first floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/103"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/100"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/132"/>
+    <rdfs:label xml:lang="fr">premier étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/104"/>
+  </bot:Storey>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/300> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <http://www.w3.org/2000/01/rdf-schema#comment> "Storage room 309 at 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/3ET/309#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/3ET/309#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <http://www.w3.org/2000/01/rdf-schema#label> "storage room 309"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <http://www.w3.org/2000/01/rdf-schema#label> "storage room 309"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/3ET/309#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://territoire.emse.fr/kg/ontology/roomCapacity> "TODO" .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/StorageRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/309> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/3ET/309#temperature> .

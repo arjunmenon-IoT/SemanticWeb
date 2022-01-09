@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <http://www.w3.org/2000/01/rdf-schema#comment> "Meeting room 330 at 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/3ET/330#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/MeetingRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/332> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/3ET/330#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/3ET/330#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://territoire.emse.fr/kg/ontology/roomCapacity> "TODO" .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/3ET/330#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-women-prm> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <http://www.w3.org/2000/01/rdf-schema#label> "meeting room 330"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330> <http://www.w3.org/2000/01/rdf-schema#label> "meeting room 330"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/330#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

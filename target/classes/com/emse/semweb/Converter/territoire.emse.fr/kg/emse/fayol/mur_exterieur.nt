@@ -1,0 +1,4 @@
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur> <https://w3id.org/seas/Uvalue> <https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue> .
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur> <http://www.w3.org/2000/01/rdf-schema#comment> "Murs en pierre (calcaire ferme) 50 cm + PSE 8 cm"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/MaterialType> .
+<https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue> <https://w3id.org/seas/value> "0.33 W/(m2.K)"^^<http://w3id.org/lindt/custom_datatypes#ucum> .

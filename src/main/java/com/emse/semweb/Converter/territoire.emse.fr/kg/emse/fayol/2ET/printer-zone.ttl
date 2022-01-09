@@ -1,0 +1,26 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone>
+        a                         bot:Space ;
+        rdfs:comment              "Area with a printer joining the two corridors at the 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "espace imprimante"@fr , "printer zone"@en ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/2ET/200> , <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/2ET/214> ;
+        bot:hasElement            <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#printer> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#temperature> .

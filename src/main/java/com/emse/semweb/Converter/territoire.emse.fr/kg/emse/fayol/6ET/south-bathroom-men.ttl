@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men>
+        a                         bot:Space , territoire:Bathroom ;
+        rdfs:comment              "Men's bathroom on the South side of 6th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "South men's bathroom"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/6ET/620> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/6ET/620> , <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men#temperature>
+        a       seas:TemperatureProperty .

@@ -1,0 +1,45 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/426> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/409> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/405> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/420A> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/431H> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/401F> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/401H> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the fourth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/424> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/410> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/403> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/412> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/400> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/428> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/414> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/407> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://territoire.emse.fr/kg/ontology/altitude> "578.15 m"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/416> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <http://www.w3.org/2000/01/rdf-schema#label> "fourth floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/404> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/421> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/430> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/423> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/411> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/418> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Storey> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/406> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/408> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/420B> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/425> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/434> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/422> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <http://www.w3.org/2000/01/rdf-schema#label> "quatrième étage"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/432> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/401D> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/4ET/429> .

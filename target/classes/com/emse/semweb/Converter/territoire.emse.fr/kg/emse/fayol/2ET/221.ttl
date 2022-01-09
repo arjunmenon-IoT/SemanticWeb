@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/221#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/221#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/221#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/221>
+        a                             bot:Space , territoire:ComputerClassRoom ;
+        rdfs:comment                  "Computer room with 20 computers at 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                    "salle S2.21"@fr , "room S2.21"@en ;
+        territoire:numberOfcomputers  20 ;
+        territoire:roomCapacity       40 ;
+        bot:adjacentZone              <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> ;
+        bot:hasElement                <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer14> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer10> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer20> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer17> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer6> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer16> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer1> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer12> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer8> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer19> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer13> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer18> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer3> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer7> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer2> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer15> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer9> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer11> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer4> , <https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer5> ;
+        seas:atmosphericPressure      <https://territoire.emse.fr/kg/emse/fayol/2ET/221#atmosphericPressure> ;
+        seas:humidity                 <https://territoire.emse.fr/kg/emse/fayol/2ET/221#humidity> ;
+        seas:luminosity               <https://territoire.emse.fr/kg/emse/fayol/2ET/221#luminosity> ;
+        seas:temperature              <https://territoire.emse.fr/kg/emse/fayol/2ET/221#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/221#luminosity>
+        a       seas:LuminosityProperty .

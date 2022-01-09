@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area>
+        a                         bot:Space ;
+        rdfs:comment              "Area with seats allowing visitors to wait. Joins the two corridors at the 5th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "waiting area"@fr , "waiting area"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/516> , <https://territoire.emse.fr/kg/emse/fayol/5ET/514> , <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/500> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/5ET/500> , <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/514> , <https://territoire.emse.fr/kg/emse/fayol/5ET/516> , <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area#luminosity>
+        a       seas:LuminosityProperty .

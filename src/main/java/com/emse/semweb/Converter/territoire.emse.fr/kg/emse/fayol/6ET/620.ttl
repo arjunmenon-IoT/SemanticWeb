@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620>
+        a                         bot:Space , territoire:MeetingRoom ;
+        rdfs:comment              "Reception room 620 at 6th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "reception room 620"@en , "salle de reception 620"@fr ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women> , <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> , <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm> , <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> , <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/6ET/634> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> , <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women> , <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm> , <https://territoire.emse.fr/kg/emse/fayol/6ET/634> , <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> , <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/6ET/620#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/6ET/620#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/6ET/620#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/6ET/620#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/6ET/620#temperature>
+        a       seas:TemperatureProperty .

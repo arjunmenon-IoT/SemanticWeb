@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/521">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <rdfs:label xml:lang="fr">office 521</rdfs:label>
+    <rdfs:label xml:lang="en">office 521</rdfs:label>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/521#luminosity"/>
+    </seas:luminosity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/523"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/521#temperature"/>
+    </seas:temperature>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/521#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >1</territoire:roomCapacity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor"/>
+    <rdfs:comment xml:lang="en">Office 521 at 5th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/OfficeRoom"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/5ET/521#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+  </bot:Space>
+</rdf:RDF>

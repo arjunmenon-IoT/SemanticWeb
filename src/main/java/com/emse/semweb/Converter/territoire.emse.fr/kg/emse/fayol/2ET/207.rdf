@@ -1,0 +1,28 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/207">
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/207#temperature"/>
+    </seas:temperature>
+    <rdfs:comment xml:lang="en">Classroom with 10 seats at 2nd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <rdfs:label xml:lang="fr">salle S2.07</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/207#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/207#humidity"/>
+    </seas:humidity>
+    <rdfs:label xml:lang="en">room S2.07</rdfs:label>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/ClassRoom"/>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >10</territoire:roomCapacity>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/2ET/207#luminosity"/>
+    </seas:luminosity>
+  </bot:Space>
+</rdf:RDF>

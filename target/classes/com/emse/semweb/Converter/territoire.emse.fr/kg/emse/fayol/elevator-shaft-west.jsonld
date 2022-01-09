@@ -1,0 +1,74 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The west elevator shaft of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "elevator shaft west"
+    },
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/4ET/400", "https://territoire.emse.fr/kg/emse/fayol/1ET/100", "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/5ET/500", "https://territoire.emse.fr/kg/emse/fayol/ENT/000", "https://territoire.emse.fr/kg/emse/fayol/6ET/600", "https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding", "https://territoire.emse.fr/kg/emse/fayol/2ET/200" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/4ET/400", "https://territoire.emse.fr/kg/emse/fayol/6ET/600", "https://territoire.emse.fr/kg/emse/fayol/2ET/200", "https://territoire.emse.fr/kg/emse/fayol/1ET/100", "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/ENT/000", "https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding", "https://territoire.emse.fr/kg/emse/fayol/5ET/500" ],
+    "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/", "https://territoire.emse.fr/kg/emse/fayol/3ET/", "https://territoire.emse.fr/kg/emse/fayol/RDC/", "https://territoire.emse.fr/kg/emse/fayol/6ET/", "https://territoire.emse.fr/kg/emse/fayol/5ET/", "https://territoire.emse.fr/kg/emse/fayol/ENT/", "https://territoire.emse.fr/kg/emse/fayol/4ET/", "https://territoire.emse.fr/kg/emse/fayol/2ET/" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <http://www.w3.org/2000/01/rdf-schema#label> "vestibule"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#interphone> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <http://www.w3.org/2000/01/rdf-schema#comment> "A small vestibule at the entrance of the building of Mines Saint-Étienne at Espace Fauriel. There is an automatic glassdoor that opens to the outside and one that is activated by a badge that opens to the inside."@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule> <http://www.w3.org/ns/ssn/hasProperty> <https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

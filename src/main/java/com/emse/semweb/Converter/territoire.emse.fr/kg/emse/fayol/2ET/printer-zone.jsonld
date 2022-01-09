@@ -1,0 +1,70 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Area with a printer joining the two corridors at the 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "espace imprimante"
+    }, {
+      "@language" : "en",
+      "@value" : "printer zone"
+    } ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/2ET/200", "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/2ET/214" ],
+    "hasElement" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#printer",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

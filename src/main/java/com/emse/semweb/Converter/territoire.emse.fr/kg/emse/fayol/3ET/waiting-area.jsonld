@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Area with seats allowing visitors to wait. Joins the two corridors at the 3rd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "waiting area"
+    }, {
+      "@language" : "en",
+      "@value" : "waiting area"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/3ET/314", "https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/3ET/318", "https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor", "https://territoire.emse.fr/kg/emse/fayol/3ET/316", "https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/3ET/316", "https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding", "https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/3ET/318", "https://territoire.emse.fr/kg/emse/fayol/3ET/314", "https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

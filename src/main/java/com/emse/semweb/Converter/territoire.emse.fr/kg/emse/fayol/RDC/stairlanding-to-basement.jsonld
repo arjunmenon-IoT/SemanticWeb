@@ -1,0 +1,78 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The part of the stairwell to basement that is at the ground floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "stairlanding to basement"
+    },
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/005" ],
+    "wheelAccessible" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/005", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/005" ],
+    "intersectsZone" : "https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "wheelAccessible" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+      "@type" : "@id"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

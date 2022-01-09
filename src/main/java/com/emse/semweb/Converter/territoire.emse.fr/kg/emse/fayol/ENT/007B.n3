@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B>
+        a                         territoire:TechnicianRoom , bot:Space ;
+        rdfs:comment              "A room reserved for technical staff and service agents, at the half floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "salle 007BIS"@fr , "room 007BIS"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/ENT/011> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/ENT/007> , <https://territoire.emse.fr/kg/emse/fayol/ENT/011> , <https://territoire.emse.fr/kg/emse/fayol/ENT/003> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#humidity>
+        a       seas:HumidityProperty .

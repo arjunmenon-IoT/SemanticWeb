@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A corridor that connects the entrance hall of Espace Fauriel and the bathrooms at the ground floor."
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "couloir"
+    }, {
+      "@language" : "en",
+      "@value" : "corridor"
+    } ],
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/021", "https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas", "https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm", "https://territoire.emse.fr/kg/emse/fayol/RDC/025" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/025", "https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm", "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall", "https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas", "https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men", "https://territoire.emse.fr/kg/emse/fayol/RDC/021" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

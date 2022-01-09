@@ -1,0 +1,76 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404",
+    "@type" : [ "bot:Space", "territoire:OfficeRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Office 404 at 4th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "office 404"
+    }, {
+      "@language" : "en",
+      "@value" : "office 404"
+    } ],
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor",
+    "territoire:roomCapacity" : 5,
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/4ET/401F", "https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/4ET/406" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/404#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

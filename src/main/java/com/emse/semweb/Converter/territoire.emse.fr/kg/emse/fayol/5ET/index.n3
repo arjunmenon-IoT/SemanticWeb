@@ -1,0 +1,12 @@
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/>
+        a                    bot:Storey ;
+        rdfs:comment         "This is the fifth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en ;
+        rdfs:label           "cinquième étage"@fr , "fifth floor"@en ;
+        territoire:altitude  "581.81 m"^^cdt:ucum ;
+        bot:hasSpace         <https://territoire.emse.fr/kg/emse/fayol/5ET/516> , <https://territoire.emse.fr/kg/emse/fayol/5ET/525> , <https://territoire.emse.fr/kg/emse/fayol/5ET/520> , <https://territoire.emse.fr/kg/emse/fayol/5ET/507> , <https://territoire.emse.fr/kg/emse/fayol/5ET/501F> , <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/506> , <https://territoire.emse.fr/kg/emse/fayol/5ET/531F> , <https://territoire.emse.fr/kg/emse/fayol/5ET/514> , <https://territoire.emse.fr/kg/emse/fayol/5ET/524> , <https://territoire.emse.fr/kg/emse/fayol/5ET/500> , <https://territoire.emse.fr/kg/emse/fayol/5ET/530> , <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area> , <https://territoire.emse.fr/kg/emse/fayol/5ET/510> , <https://territoire.emse.fr/kg/emse/fayol/5ET/529> , <https://territoire.emse.fr/kg/emse/fayol/5ET/505> , <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/523> , <https://territoire.emse.fr/kg/emse/fayol/5ET/528> , <https://territoire.emse.fr/kg/emse/fayol/5ET/504> , <https://territoire.emse.fr/kg/emse/fayol/5ET/511> , <https://territoire.emse.fr/kg/emse/fayol/5ET/503> , <https://territoire.emse.fr/kg/emse/fayol/5ET/502> , <https://territoire.emse.fr/kg/emse/fayol/5ET/534> , <https://territoire.emse.fr/kg/emse/fayol/5ET/522> , <https://territoire.emse.fr/kg/emse/fayol/5ET/501H> , <https://territoire.emse.fr/kg/emse/fayol/5ET/532> , <https://territoire.emse.fr/kg/emse/fayol/5ET/521> , <https://territoire.emse.fr/kg/emse/fayol/5ET/526> , <https://territoire.emse.fr/kg/emse/fayol/5ET/508> , <https://territoire.emse.fr/kg/emse/fayol/5ET/531H> ;
+        bot:intersectsZone   <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> , <https://territoire.emse.fr/kg/emse/fayol/stairwell> .

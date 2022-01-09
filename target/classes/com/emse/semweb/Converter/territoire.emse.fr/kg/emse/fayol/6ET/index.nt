@@ -1,0 +1,23 @@
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <http://www.w3.org/2000/01/rdf-schema#label> "sixth floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/605> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Storey> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/620> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <http://www.w3.org/2000/01/rdf-schema#comment> "This is the sixth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/600> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/603> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/607> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/610> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/634> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/609> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <http://www.w3.org/2000/01/rdf-schema#label> "sixième étage"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/604> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#hasSpace> <https://territoire.emse.fr/kg/emse/fayol/6ET/611> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/> <https://w3id.org/bot#intersectsZone> <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> .

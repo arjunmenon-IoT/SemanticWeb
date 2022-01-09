@@ -1,0 +1,21 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> <https://w3id.org/bot#containsZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/428> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/428> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/434> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <http://www.w3.org/2000/01/rdf-schema#comment> "Kitchen, coffee, lunch area on the South side of 4th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <http://www.w3.org/2000/01/rdf-schema#label> "Kitchen, coffee, lunch area"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/434> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area> <https://w3id.org/bot#containsZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

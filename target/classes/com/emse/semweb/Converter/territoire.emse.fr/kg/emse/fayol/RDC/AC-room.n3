@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room>
+        a                           bot:Space ;
+        rdfs:comment                "The air conditioning local in the IT’m factory."@en ;
+        rdfs:label                  "Air conditioning local"@en ;
+        territoire:canWalkTo        <https://territoire.emse.fr/kg/emse/fayol/RDC/012> ;
+        territoire:wheelAccessible  <https://territoire.emse.fr/kg/emse/fayol/RDC/012> ;
+        bot:adjacentZone            <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> , <https://territoire.emse.fr/kg/emse/fayol/RDC/012> ;
+        seas:atmosphericPressure    <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#atmosphericPressure> ;
+        seas:humidity               <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#humidity> ;
+        seas:luminosity             <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#luminosity> ;
+        seas:temperature            <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

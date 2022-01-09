@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/025#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <http://www.w3.org/2000/01/rdf-schema#label> "cleaning local 025"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/025#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <http://www.w3.org/2000/01/rdf-schema#comment> "A room reserved for technical staff and service agents, at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/TechnicianRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025> <http://www.w3.org/2000/01/rdf-schema#label> "local ménage 025"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/025#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

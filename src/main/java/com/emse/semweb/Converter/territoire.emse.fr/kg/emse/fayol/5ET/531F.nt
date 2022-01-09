@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/531F#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/531F#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/534> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/531H> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <http://www.w3.org/2000/01/rdf-schema#label> "South women and PRM's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/531F#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/531F#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/534> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F> <http://www.w3.org/2000/01/rdf-schema#comment> "Women and persons with reduced mobility's bathroom on the South side of 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/531F#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

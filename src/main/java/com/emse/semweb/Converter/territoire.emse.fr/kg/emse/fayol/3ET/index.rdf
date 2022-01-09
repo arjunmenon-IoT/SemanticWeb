@@ -1,0 +1,50 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/">
+    <rdfs:comment xml:lang="en">This is the third floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/332"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/326"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/303"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/318"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-women-prm"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/316"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/328"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/308"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/302"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/320"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/300"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/325"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/305"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/kitchen-coffee-lunch-area"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/323"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/307"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/322"/>
+    <rdfs:label xml:lang="fr">troisième étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/314"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/306"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >574.45 m</territoire:altitude>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/324"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/304"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/309"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/shower"/>
+    <rdfs:label xml:lang="en">third floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/330"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/waiting-area"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/321"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/301"/>
+  </bot:Storey>
+</rdf:RDF>

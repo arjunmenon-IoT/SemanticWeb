@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/ENT/011> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/ENT/007> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <http://www.w3.org/2000/01/rdf-schema#label> "salle 007BIS"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <http://www.w3.org/2000/01/rdf-schema#label> "room 007BIS"@en .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/TechnicianRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/ENT/011> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <http://www.w3.org/2000/01/rdf-schema#comment> "A room reserved for technical staff and service agents, at the half floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/ENT/007B#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/ENT/003> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/ENT/007B#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

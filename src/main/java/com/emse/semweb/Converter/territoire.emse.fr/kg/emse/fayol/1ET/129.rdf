@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/129">
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/129#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:hasElement rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/129#projector"/>
+    <rdfs:label xml:lang="fr">salle S1.29</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/129#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor"/>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/ClassRoom"/>
+    <rdfs:comment xml:lang="en">Classroom with 36 seats and a projector at 1st floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <territoire:roomCapacity rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"
+    >36</territoire:roomCapacity>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/129#luminosity"/>
+    </seas:luminosity>
+    <rdfs:label xml:lang="en">room S1.29</rdfs:label>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/1ET/129#humidity"/>
+    </seas:humidity>
+  </bot:Space>
+</rdf:RDF>

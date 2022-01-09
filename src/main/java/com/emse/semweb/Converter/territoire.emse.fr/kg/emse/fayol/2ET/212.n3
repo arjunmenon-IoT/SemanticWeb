@@ -1,0 +1,31 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212>
+        a                         bot:Space , territoire:ClassRoom ;
+        rdfs:comment              "Classroom with 24 seats and a projector at 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "salle S2.12"@fr , "room S2.12"@en ;
+        territoire:roomCapacity   24 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> ;
+        bot:hasElement            <https://territoire.emse.fr/kg/emse/fayol/2ET/212#projector> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/2ET/212#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/2ET/212#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/2ET/212#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/2ET/212#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212#projector>
+        rdfs:comment  "vidéo projecteur interactif Epson EB 575 WI"@fr .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/212#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

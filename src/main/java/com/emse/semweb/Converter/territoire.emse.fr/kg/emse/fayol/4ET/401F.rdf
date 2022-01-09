@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:Bathroom rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401F">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401D"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401F#temperature"/>
+    </seas:temperature>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401H"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <rdfs:comment xml:lang="en">Women's bathroom on the North side of 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401F#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/404"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401F#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/401F#luminosity"/>
+    </seas:luminosity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <rdfs:label xml:lang="en">North women's bathroom</rdfs:label>
+  </territoire:Bathroom>
+</rdf:RDF>

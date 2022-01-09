@@ -1,0 +1,31 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <territoire:Bathroom rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/431F">
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area"/>
+    <rdfs:label xml:lang="en">South women and PRM's bathroom</rdfs:label>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/431F#temperature"/>
+    </seas:temperature>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/431F#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/431F#luminosity"/>
+    </seas:luminosity>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/431F#humidity"/>
+    </seas:humidity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen"/>
+    <rdfs:comment xml:lang="en">Women and persons with reduced mobility's bathroom on the South side of 4th floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <rdf:type rdf:resource="https://w3id.org/bot#Space"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/431H"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen"/>
+  </territoire:Bathroom>
+</rdf:RDF>

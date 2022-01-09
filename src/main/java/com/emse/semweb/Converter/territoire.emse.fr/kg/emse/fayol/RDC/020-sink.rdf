@@ -1,0 +1,32 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <rdf:Description rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020">
+    <bot:containsZone>
+      <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink">
+        <seas:atmosphericPressure>
+          <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink#atmosphericPressure"/>
+        </seas:atmosphericPressure>
+        <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+        <rdfs:label xml:lang="en">sink area in room 020</rdfs:label>
+        <rdfs:label xml:lang="fr">zone évier dans la pièce 020</rdfs:label>
+        <rdfs:comment xml:lang="en">Sink area in room 020 at the ground floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+        <seas:temperature>
+          <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink#temperature"/>
+        </seas:temperature>
+        <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+        <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom"/>
+        <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/020"/>
+        <seas:luminosity>
+          <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink#luminosity"/>
+        </seas:luminosity>
+        <seas:humidity>
+          <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink#humidity"/>
+        </seas:humidity>
+      </bot:Space>
+    </bot:containsZone>
+  </rdf:Description>
+</rdf:RDF>

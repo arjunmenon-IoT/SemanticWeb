@@ -1,0 +1,11 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/toiture_terrasse#uvalue>
+        seas:value  "0.26 W/(m2.K)"^^cdt:ucum .
+
+<https://territoire.emse.fr/kg/emse/fayol/toiture_terrasse>
+        a             seas:MaterialType ;
+        rdfs:comment  "Efithane20B (polyréthane) 7,2 cm + Béton 20 cm"@fr ;
+        seas:Uvalue   <https://territoire.emse.fr/kg/emse/fayol/toiture_terrasse#uvalue> .

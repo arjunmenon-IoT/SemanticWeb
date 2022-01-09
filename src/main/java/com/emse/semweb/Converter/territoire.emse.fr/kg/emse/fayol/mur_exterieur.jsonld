@@ -1,0 +1,30 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/mur_exterieur",
+    "@type" : "seas:MaterialType",
+    "comment" : {
+      "@language" : "fr",
+      "@value" : "Murs en pierre (calcaire ferme) 50 cm + PSE 8 cm"
+    },
+    "Uvalue" : "https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/mur_exterieur#uvalue",
+    "value" : "0.33 W/(m2.K)"
+  } ],
+  "@context" : {
+    "Uvalue" : {
+      "@id" : "https://w3id.org/seas/Uvalue",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "value" : {
+      "@id" : "https://w3id.org/seas/value",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

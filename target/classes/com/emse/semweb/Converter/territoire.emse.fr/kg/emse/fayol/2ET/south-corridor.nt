@@ -1,0 +1,21 @@
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/220> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/224> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/230> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <http://www.w3.org/2000/01/rdf-schema#label> "south corridor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/223> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <http://www.w3.org/2000/01/rdf-schema#comment> "South corridor at 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/232> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/231> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/printer-zone> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/234> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <http://www.w3.org/2000/01/rdf-schema#label> "couloir sud"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/221> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/ENT/">
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <rdfs:label xml:lang="fr">demi étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/011"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/007"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/007B"/>
+    <rdfs:comment xml:lang="en">This is the level that is between the ground floor and first floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/003"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/022"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/030"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/000"/>
+    <rdfs:label xml:lang="en">half floor</rdfs:label>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >564.48 m</territoire:altitude>
+  </bot:Storey>
+</rdf:RDF>

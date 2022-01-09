@@ -1,0 +1,42 @@
+{
+  "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/",
+  "@type" : "bot:Storey",
+  "comment" : {
+    "@language" : "en",
+    "@value" : "This is the level that is between the ground floor and first floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."
+  },
+  "label" : [ {
+    "@language" : "fr",
+    "@value" : "demi étage"
+  }, {
+    "@language" : "en",
+    "@value" : "half floor"
+  } ],
+  "altitude" : "564.48 m",
+  "hasSpace" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas", "https://territoire.emse.fr/kg/emse/fayol/ENT/011", "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding", "https://territoire.emse.fr/kg/emse/fayol/ENT/007", "https://territoire.emse.fr/kg/emse/fayol/ENT/007B", "https://territoire.emse.fr/kg/emse/fayol/ENT/003", "https://territoire.emse.fr/kg/emse/fayol/ENT/022", "https://territoire.emse.fr/kg/emse/fayol/ENT/030", "https://territoire.emse.fr/kg/emse/fayol/ENT/000" ],
+  "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west", "https://territoire.emse.fr/kg/emse/fayol/stairwell", "https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east" ],
+  "@context" : {
+    "hasSpace" : {
+      "@id" : "https://w3id.org/bot#hasSpace",
+      "@type" : "@id"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "altitude" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/altitude",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

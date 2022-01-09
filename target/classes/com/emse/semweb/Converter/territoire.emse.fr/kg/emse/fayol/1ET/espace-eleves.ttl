@@ -1,0 +1,26 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves>
+        a                         bot:Space ;
+        rdfs:comment              "Area for students to relax between classes, with sofa, coffee machines, tables"@fr ;
+        rdfs:label                "espace élève"@fr , "student space"@en ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/1ET/100> , <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/1ET/south-corridor> ;
+        bot:hasElement            <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#coffee-machine> , <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#vending-machine> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/1ET/espace-eleves#temperature>
+        a       seas:TemperatureProperty .

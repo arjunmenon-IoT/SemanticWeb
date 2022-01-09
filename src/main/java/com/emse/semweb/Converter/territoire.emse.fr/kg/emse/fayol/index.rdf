@@ -1,0 +1,97 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:wgs84="http://www.w3.org/2003/01/geo/wgs84_pos#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:ignf="http://data.ign.fr/def/ignf#"
+    xmlns:ex="http://example.org/"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:geo="http://www.opengis.net/ont/geosparql#"
+    xmlns:ban="http://id.osmfr.org/bano/"
+    xmlns:org="http://www.w3.org/ns/org#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <seas:InstantaneousEvaluation>
+    <seas:evaluatedSimpleValue rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >65 kWh</seas:evaluatedSimpleValue>
+    <seas:hasTemporalContext rdf:parseType="Resource">
+      <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2020-01-02T00:10:00+01:00</time:inXSDDateTime>
+    </seas:hasTemporalContext>
+    <seas:evaluatedValue>
+      <seas:Property rdf:about="https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M">
+        <rdf:type rdf:resource="https://w3id.org/seas/ElectricEnergyProperty"/>
+      </seas:Property>
+    </seas:evaluatedValue>
+    <rdf:type rdf:resource="https://w3id.org/seas/Evaluation"/>
+  </seas:InstantaneousEvaluation>
+  <ignf:Transformation rdf:about="https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo">
+    <ex:referencePoint>POINT( )</ex:referencePoint>
+    <rdfs:comment>Transformation géodésique</rdfs:comment>
+  </ignf:Transformation>
+  <seas:FixedDurationSum>
+    <seas:sumDuration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration"
+    >PT10M</seas:sumDuration>
+    <seas:sumProperty rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M"/>
+    <seas:summedProperty>
+      <seas:Property rdf:about="https://territoire.emse.fr/kg/emse/fayol/#consumedPower">
+        <seas:derivesFrom rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M"/>
+        <rdf:type rdf:resource="https://w3id.org/seas/ElectricPowerProperty"/>
+      </seas:Property>
+    </seas:summedProperty>
+  </seas:FixedDurationSum>
+  <seas:InstantaneousEvaluation>
+    <seas:evaluatedSimpleValue rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >50 kWh</seas:evaluatedSimpleValue>
+    <seas:hasTemporalContext rdf:parseType="Resource">
+      <time:inXSDDateTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+      >2020-01-02T00:00:00+01:00</time:inXSDDateTime>
+    </seas:hasTemporalContext>
+    <seas:evaluatedValue rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/Evaluation"/>
+  </seas:InstantaneousEvaluation>
+  <seas:ApproximateEvaluation>
+    <seas:evaluatedSimpleValue rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >6580 m2</seas:evaluatedSimpleValue>
+    <seas:evaluatedProperty rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#surface"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/HeatedSurfaceEvaluation"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/Evaluation"/>
+  </seas:ApproximateEvaluation>
+  <org:Site rdf:about="https://territoire.emse.fr/kg/emse/fayol/">
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/"/>
+    <rdfs:comment xml:lang="en">The building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/1ET/"/>
+    <seas:incomingElectricPower rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#consumedPower"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/"/>
+    <rdf:type rdf:resource="https://w3id.org/bot#Building"/>
+    <rdfs:label xml:lang="fr">bâtiment EMSE Espace Fauriel</rdfs:label>
+    <org:siteOf rdf:resource="https://territoire.emse.fr/kg/emse/"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/ElectricPowerConsumer"/>
+    <seas:incomingElectricEnergy rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/5ET/"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/2ET/"/>
+    <org:siteAddress rdf:resource="http://id.osmfr.org/bano/422187242M-29"/>
+    <seas:surface rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#surface"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/TER/"/>
+    <bot:hasStorey rdf:resource="https://territoire.emse.fr/kg/emse/fayol/S-SOL/"/>
+  </org:Site>
+  <ignf:CoordinateSystem rdf:about="https://territoire.emse.fr/kg/emse/fayol/#crs">
+    <rdfs:comment>Système de coordonnées de référence cartésien métrique conforme aux fichiers DWG. L'origine est près de la porte coupe-feu qui sépare la salle d'attente et le couloir nord, approximativement au milieu du mur porteur. L'axe x est orienté approximativement vers le sud-est-est, l'axe y est orienté approximativement vers le nord-nord-est, l'axe z est orienté vers le haut.</rdfs:comment>
+    <rdf:type rdf:resource="http://data.ign.fr/def/ignf#CartesianCS"/>
+  </ignf:CoordinateSystem>
+  <rdf:Description>
+    <ex:sg rdf:datatype="http://www.opengis.net/ont/geosparql#wktLiteral"
+    >&lt;https://ci.mines-stetienne.fr/kg/emse/fayol/CRS&gt; Point(0 0)</ex:sg>
+  </rdf:Description>
+  <seas:ApproximateEvaluation>
+    <seas:evaluatedSimpleValue rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >6720 m2</seas:evaluatedSimpleValue>
+    <seas:evaluatedProperty rdf:resource="https://territoire.emse.fr/kg/emse/fayol/#surface"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/TotalEvaluation"/>
+    <rdf:type rdf:resource="https://w3id.org/seas/Evaluation"/>
+  </seas:ApproximateEvaluation>
+</rdf:RDF>

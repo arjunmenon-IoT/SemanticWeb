@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/505#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <http://www.w3.org/2000/01/rdf-schema#label> "Storage room 505"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <http://www.w3.org/2000/01/rdf-schema#label> "Storage room 505"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/505#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/505#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/StorageRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/508> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/506> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/505#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505> <http://www.w3.org/2000/01/rdf-schema#comment> "Storage room 505 at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/505#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

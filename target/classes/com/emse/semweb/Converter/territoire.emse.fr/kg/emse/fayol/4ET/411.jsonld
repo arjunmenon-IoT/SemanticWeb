@@ -1,0 +1,114 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "asWKT" : "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> POLYGON()"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411",
+    "@type" : [ "territoire:OfficeRoom", "geo:SpatialFeature", "bot:Space" ],
+    "hasGeometry" : "_:b0",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Office 411 at 4th floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "office 411"
+    }, {
+      "@language" : "en",
+      "@value" : "office 411"
+    } ],
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor",
+    "territoire:roomCapacity" : 2,
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/4ET/409", "https://territoire.emse.fr/kg/emse/fayol/4ET/400" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#crs",
+    "@type" : [ "ignf:CoordinateSystem", "ignf:CartesianCS" ],
+    "comment" : "Système de coordonnées de référence cartésien métrique, positionné au sol entre la porte et le placard électrique. x vers la porte, y vers le haut, z vers les fenêtres."
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#door",
+    "@type" : [ "s4syst:Connection", "seas:Door" ],
+    "connectsSystem" : [ "https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor", "https://territoire.emse.fr/kg/emse/fayol/4ET/411" ],
+    "openCloseStatus" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#door_status",
+    "width" : "84 cm"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "hasGeometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "asWKT" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#asWKT",
+      "@type" : "http://www.opengis.net/ont/geosparql#WKTLiteral"
+    },
+    "openCloseStatus" : {
+      "@id" : "https://w3id.org/seas/openCloseStatus",
+      "@type" : "@id"
+    },
+    "width" : {
+      "@id" : "https://w3id.org/seas/width",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "connectsSystem" : {
+      "@id" : "https://saref.etsi.org/saref4syst/connectsSystem",
+      "@type" : "@id"
+    },
+    "geo" : "http://www.opengis.net/ont/geosparql#",
+    "seas" : "https://w3id.org/seas/",
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "bot" : "https://w3id.org/bot#",
+    "ignf" : "http://data.ign.fr/def/ignf#",
+    "s4syst" : "https://saref.etsi.org/saref4syst/",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

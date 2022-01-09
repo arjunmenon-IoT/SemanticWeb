@@ -1,0 +1,13 @@
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/1ET/101F#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/1ET/101F#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/1ET/101F#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/1ET/101F#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <http://www.w3.org/2000/01/rdf-schema#comment> "Women and persons with reduced mobility's bathroom on the North side of 1st floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <http://www.w3.org/2000/01/rdf-schema#label> "North women and PRM's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/1ET/101F#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

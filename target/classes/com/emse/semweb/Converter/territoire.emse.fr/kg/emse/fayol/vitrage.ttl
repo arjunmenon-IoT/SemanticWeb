@@ -1,0 +1,11 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://territoire.emse.fr/kg/emse/fayol/vitrage#uvalue>
+        seas:value  "2.88 W/(m2.K)"^^cdt:ucum .
+
+<https://territoire.emse.fr/kg/emse/fayol/vitrage>
+        a             seas:MaterialType ;
+        rdfs:comment  "Menuiseries alu double vitrage 6/10/4"@fr ;
+        seas:Uvalue   <https://territoire.emse.fr/kg/emse/fayol/vitrage#uvalue> .

@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms>
+        a                         bot:Space ;
+        rdfs:comment              "A corridor that connects the entrance hall of Espace Fauriel and the bathrooms at the ground floor."@en ;
+        rdfs:label                "couloir"@fr , "corridor"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/RDC/021> , <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> , <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm> , <https://territoire.emse.fr/kg/emse/fayol/RDC/025> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/RDC/025> , <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-women-prm> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/reserved-zone-sas> , <https://territoire.emse.fr/kg/emse/fayol/RDC/bathroom-men> , <https://territoire.emse.fr/kg/emse/fayol/RDC/021> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms#temperature>
+        a       seas:TemperatureProperty .

@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west>
+        a                         bot:Space ;
+        rdfs:comment              "The west elevator shaft of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "elevator shaft west"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/4ET/400> , <https://territoire.emse.fr/kg/emse/fayol/1ET/100> , <https://territoire.emse.fr/kg/emse/fayol/RDC/000> , <https://territoire.emse.fr/kg/emse/fayol/5ET/500> , <https://territoire.emse.fr/kg/emse/fayol/ENT/000> , <https://territoire.emse.fr/kg/emse/fayol/6ET/600> , <https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding> , <https://territoire.emse.fr/kg/emse/fayol/2ET/200> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/4ET/400> , <https://territoire.emse.fr/kg/emse/fayol/6ET/600> , <https://territoire.emse.fr/kg/emse/fayol/2ET/200> , <https://territoire.emse.fr/kg/emse/fayol/1ET/100> , <https://territoire.emse.fr/kg/emse/fayol/RDC/000> , <https://territoire.emse.fr/kg/emse/fayol/ENT/000> , <https://territoire.emse.fr/kg/emse/fayol/3ET/stairlanding> , <https://territoire.emse.fr/kg/emse/fayol/5ET/500> ;
+        bot:intersectsZone        <https://territoire.emse.fr/kg/emse/fayol/1ET/> , <https://territoire.emse.fr/kg/emse/fayol/3ET/> , <https://territoire.emse.fr/kg/emse/fayol/RDC/> , <https://territoire.emse.fr/kg/emse/fayol/6ET/> , <https://territoire.emse.fr/kg/emse/fayol/5ET/> , <https://territoire.emse.fr/kg/emse/fayol/ENT/> , <https://territoire.emse.fr/kg/emse/fayol/4ET/> , <https://territoire.emse.fr/kg/emse/fayol/2ET/> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west#luminosity>
+        a       seas:LuminosityProperty .

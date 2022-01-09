@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/503#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/503#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/503#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/503#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/503>
+        a                         bot:Space , territoire:OfficeRoom ;
+        rdfs:comment              "Office 503 at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "office 503"@fr , "office 503"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> ;
+        territoire:roomCapacity   2 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/501H> , <https://territoire.emse.fr/kg/emse/fayol/5ET/507> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/5ET/503#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/5ET/503#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/5ET/503#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/5ET/503#temperature> .

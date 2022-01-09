@@ -1,0 +1,30 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/2000/01/rdf-schema#label> "office 411"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/OfficeRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/2000/01/rdf-schema#label> "office 411"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/4ET/411#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://territoire.emse.fr/kg/ontology/roomCapacity> "2"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/2000/01/rdf-schema#comment> "Office 411 at 4th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/4ET/411#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/409> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/4ET/411#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/geosparql#SpatialFeature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.opengis.net/ont/geosparql#hasGeometry> _:B4d9f0734c94b9f25eddb5b7768c98c83 .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/400> .
+_:B4d9f0734c94b9f25eddb5b7768c98c83 <http://www.opengis.net/ont/geosparql#asWKT> "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> POLYGON()"^^<http://www.opengis.net/ont/geosparql#WKTLiteral> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#crs> <http://www.w3.org/2000/01/rdf-schema#comment> "Système de coordonnées de référence cartésien métrique, positionné au sol entre la porte et le placard électrique. x vers la porte, y vers le haut, z vers les fenêtres." .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#crs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/ignf#CoordinateSystem> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#crs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.ign.fr/def/ignf#CartesianCS> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <https://w3id.org/seas/openCloseStatus> <https://territoire.emse.fr/kg/emse/fayol/4ET/411#door_status> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <https://w3id.org/seas/width> "84 cm"^^<http://w3id.org/lindt/custom_datatypes#ucum> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <https://saref.etsi.org/saref4syst/connectsSystem> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <https://saref.etsi.org/saref4syst/connectsSystem> <https://territoire.emse.fr/kg/emse/fayol/4ET/411> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://saref.etsi.org/saref4syst/Connection> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#door> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/Door> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/411#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

@@ -1,0 +1,21 @@
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/610> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <http://www.w3.org/2000/01/rdf-schema#label> "Terrace 6th floor"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/604> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/604> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/610> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/620> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <http://www.w3.org/2000/01/rdf-schema#comment> "The 6th floor terrace of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/620> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/terrace#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

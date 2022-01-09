@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/012> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <http://www.w3.org/2000/01/rdf-schema#comment> "A room reserved for technical staff and service agents, at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/TechnicianRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/005#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/005#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/stairwell-to-basement> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/005#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <http://www.w3.org/2000/01/rdf-schema#label> "room 005"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <http://www.w3.org/2000/01/rdf-schema#label> "salle 005"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/005#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/005#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

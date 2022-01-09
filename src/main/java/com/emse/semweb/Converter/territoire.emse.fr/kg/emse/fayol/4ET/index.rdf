@@ -1,0 +1,54 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/4ET/">
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen-coffee-lunch-area"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/426"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/409"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/405"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/waiting-area"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/420A"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/431H"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401H"/>
+    <rdfs:comment xml:lang="en">This is the fourth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/424"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/410"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/403"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/412"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/431F"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/400"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/428"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/414"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/407"/>
+    <territoire:altitude rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+    >578.15 m</territoire:altitude>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/416"/>
+    <rdfs:label xml:lang="en">fourth floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/404"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/421"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/430"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/423"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/kitchen"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/411"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/418"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/406"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/408"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/420B"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/425"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/434"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/422"/>
+    <rdfs:label xml:lang="fr">quatrième étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/432"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/401D"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/4ET/429"/>
+  </bot:Storey>
+</rdf:RDF>

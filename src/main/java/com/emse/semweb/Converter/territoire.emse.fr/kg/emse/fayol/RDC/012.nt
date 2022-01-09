@@ -1,0 +1,21 @@
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <http://www.w3.org/2000/01/rdf-schema#label> "IT’m factory hall"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <http://www.w3.org/2000/01/rdf-schema#comment> "The main room of the IT’m factory, where most of the machines and facilities are."@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/RDC/AC-room> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <http://www.w3.org/2000/01/rdf-schema#label> "room 012"@en .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012> <https://territoire.emse.fr/kg/ontology/wheelAccessible> <https://territoire.emse.fr/kg/emse/fayol/RDC/kitchen> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/RDC/012#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

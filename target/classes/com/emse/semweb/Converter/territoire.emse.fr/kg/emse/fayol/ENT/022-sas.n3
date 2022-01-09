@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas>
+        a                         bot:Space , territoire:TechnicianRoom ;
+        rdfs:comment              "A sas to go to the amphitheatre 022 or the technical room 030"@en ;
+        rdfs:label                "sas amphitheatre 022"@fr , "sas amphitheatre 022"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/ENT/030> , <https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding> , <https://territoire.emse.fr/kg/emse/fayol/ENT/022> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/ENT/030> , <https://territoire.emse.fr/kg/emse/fayol/ENT/022> , <https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas#humidity>
+        a       seas:HumidityProperty .

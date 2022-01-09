@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom>
+        a                         bot:Space , territoire:Bathroom ;
+        rdfs:comment              "Bathroom in room 020 at the ground floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "room 020 bathroom"@en , "toilettes pièce 020"@fr ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/RDC/020> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/RDC/020-sink> , <https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall> , <https://territoire.emse.fr/kg/emse/fayol/RDC/020> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/RDC/020-bathroom#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .

@@ -1,0 +1,83 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The hall at the entrance of the building of Mines Saint-Étienne at Espace Fauriel."
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "entrance hall"
+    },
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule", "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north", "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement", "https://territoire.emse.fr/kg/emse/fayol/RDC/020", "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south", "https://territoire.emse.fr/kg/emse/fayol/RDC/012" ],
+    "wheelAccessible" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement", "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/RDC/020", "https://territoire.emse.fr/kg/emse/fayol/RDC/012", "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule", "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule", "https://territoire.emse.fr/kg/emse/fayol/RDC/012", "https://territoire.emse.fr/kg/emse/fayol/RDC/000", "https://territoire.emse.fr/kg/emse/fayol/RDC/stairlanding-to-basement", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north", "https://territoire.emse.fr/kg/emse/fayol/RDC/corridor-to-bathrooms", "https://territoire.emse.fr/kg/emse/fayol/RDC/020", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south" ],
+    "containsZone" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding",
+    "hasElement" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#reception-desk",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "wheelAccessible" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+      "@type" : "@id"
+    },
+    "containsZone" : {
+      "@id" : "https://w3id.org/bot#containsZone",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/500#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/500#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/500#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/500>
+        a                         bot:Space ;
+        rdfs:comment              "The part of the stairwell that is at the 5th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "stairlanding 5th floor"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> , <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/stairwell> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/5ET/511> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> , <https://territoire.emse.fr/kg/emse/fayol/5ET/waiting-area> ;
+        bot:intersectsZone        <https://territoire.emse.fr/kg/emse/fayol/stairwell> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/5ET/500#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/5ET/500#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/5ET/500#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/5ET/500#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/500#temperature>
+        a       seas:TemperatureProperty .

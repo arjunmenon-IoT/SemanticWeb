@@ -1,0 +1,13 @@
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/2ET/201F#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/2ET/201F#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/2ET/201F#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/2ET/201F#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <http://www.w3.org/2000/01/rdf-schema#comment> "Women and persons with reduced mobility's bathroom on the North side of 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <http://www.w3.org/2000/01/rdf-schema#label> "North women and PRM's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/201F#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .

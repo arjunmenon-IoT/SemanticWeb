@@ -1,0 +1,15 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:cdt="http://w3id.org/lindt/custom_datatypes#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <seas:MaterialType rdf:about="https://territoire.emse.fr/kg/emse/fayol/vitrage">
+    <seas:Uvalue>
+      <rdf:Description rdf:about="https://territoire.emse.fr/kg/emse/fayol/vitrage#uvalue">
+        <seas:value rdf:datatype="http://w3id.org/lindt/custom_datatypes#ucum"
+        >2.88 W/(m2.K)</seas:value>
+      </rdf:Description>
+    </seas:Uvalue>
+    <rdfs:comment xml:lang="fr">Menuiseries alu double vitrage 6/10/4</rdfs:comment>
+  </seas:MaterialType>
+</rdf:RDF>

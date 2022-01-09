@@ -1,0 +1,79 @@
+@prefix td:    <https://www.w3.org/2019/wot/td#> .
+@prefix schema: <http://schema.org/> .
+@prefix :      <https://territoire.emse.fr/kg/ontology/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pto:   <http://www.productontology.org/id/> .
+@prefix sosa:  <http://www.w3.org/ns/sosa/> .
+
+:Bathroom  a             owl:Class ;
+        rdfs:comment     "The class of rooms equipped with toilets and/or shower"@en ;
+        rdfs:label       "Bathroom" ;
+        rdfs:subClassOf  bot:Space .
+
+:roomCapacity  a          rdf:Property ;
+        rdfs:comment      "The total number of person that can theoretically occupy the zone"@en ;
+        rdfs:domain       bot:Zone ;
+        rdfs:isDefinedBy  : ;
+        rdfs:label        "room capacity" ;
+        rdfs:range        xsd:integer .
+
+:ComputerClassRoom  a    owl:Class ;
+        rdfs:comment     "The class of classrooms that are equipped with computers"@en ;
+        rdfs:label       "Computer Class Room" ;
+        rdfs:subClassOf  :ClassRoom .
+
+:ClassRoom  a            owl:Class ;
+        rdfs:comment     "The class of rooms that are dedicated to teaching"@en ;
+        rdfs:label       "Class Room" ;
+        rdfs:subClassOf  bot:Space .
+
+:MeetingRoom  a          owl:Class ;
+        rdfs:comment     "The class of rooms that are dedicated to meetings"@en ;
+        rdfs:label       "Meeting Room" ;
+        rdfs:subClassOf  bot:Space .
+
+:StorageRoom  a          owl:Class ;
+        rdfs:comment     "The class of rooms that are dedicated to store things"@en ;
+        rdfs:label       "Storage Room" ;
+        rdfs:subClassOf  bot:Space .
+
+:wheelAccessible  a         rdf:Property ;
+        rdfs:comment        "Indicates that a zone is accessible to wheelchairs or wheeled objects from another zone"@en ;
+        rdfs:domain         bot:Zone ;
+        rdfs:isDefinedBy    : ;
+        rdfs:label          "wheel accessible"@en ;
+        rdfs:range          bot:Zone ;
+        rdfs:subPropertyOf  bot:adjacentZone .
+
+:OfficeRoom  a           owl:Class ;
+        rdfs:comment     "The class of rooms that are dedicated to offices"@en ;
+        rdfs:label       "Office Room" ;
+        rdfs:subClassOf  bot:Space .
+
+:       a             owl:Ontology ;
+        rdfs:comment  "This is the ontology for the Plateforme Territoire"@en ;
+        rdfs:label    "Territoire ontology"@en .
+
+:canWalkTo  a               rdf:Property ;
+        rdfs:comment        "links a zone to another zone that humans can walk to"@en ;
+        rdfs:domain         bot:Zone ;
+        rdfs:isDefinedBy    : ;
+        rdfs:label          "can walk to"@en ;
+        rdfs:range          bot:Zone ;
+        rdfs:subPropertyOf  bot:adjacentZone .
+
+:numberOfComputers  a     rdf:Property ;
+        rdfs:comment      "The total number of computers that can be used by students"@en ;
+        rdfs:domain       bot:Zone ;
+        rdfs:isDefinedBy  : ;
+        rdfs:label        "number of computers" ;
+        rdfs:range        xsd:integer .
+
+:Amphitheatre  a         owl:Class ;
+        rdfs:comment     "The class of amphitheatre class rooms"@en ;
+        rdfs:label       "Amphitheatre" ;
+        rdfs:subClassOf  :ClassRoom .

@@ -1,0 +1,29 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/000#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/000#luminosity>
+        a       seas:LuminosityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/000#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/000>
+        a                         bot:Space ;
+        rdfs:comment              "The part of the stairwell that is at the half floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "stairlanding half floor"@en ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/ENT/011> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> , <https://territoire.emse.fr/kg/emse/fayol/stairwell> , <https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding> ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/ENT/011> , <https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east> , <https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west> ;
+        bot:intersectsZone        <https://territoire.emse.fr/kg/emse/fayol/stairwell> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/ENT/000#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/ENT/000#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/ENT/000#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/ENT/000#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/ENT/000#temperature>
+        a       seas:TemperatureProperty .

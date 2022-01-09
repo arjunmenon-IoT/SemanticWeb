@@ -1,0 +1,71 @@
+@prefix geo:   <http://www.opengis.net/ont/geosparql#> .
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix cdt:   <http://w3id.org/lindt/custom_datatypes#> .
+@prefix wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:    <http://example.org/> .
+@prefix org:   <http://www.w3.org/ns/org#> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix ignf:  <http://data.ign.fr/def/ignf#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix ban:   <http://id.osmfr.org/bano/> .
+
+[ a                          seas:ApproximateEvaluation , seas:HeatedSurfaceEvaluation , seas:Evaluation ;
+  seas:evaluatedProperty     <https://territoire.emse.fr/kg/emse/fayol/#surface> ;
+  seas:evaluatedSimpleValue  "6580 m2"^^cdt:ucum
+] .
+
+[ a                    seas:FixedDurationSum ;
+  seas:sumDuration     "PT10M"^^xsd:duration ;
+  seas:sumProperty     <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> ;
+  seas:summedProperty  <https://territoire.emse.fr/kg/emse/fayol/#consumedPower>
+] .
+
+<https://territoire.emse.fr/kg/emse/fayol/#consumedPower>
+        a                 seas:Property , seas:ElectricPowerProperty ;
+        seas:derivesFrom  <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> .
+
+<https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo>
+        a                  ignf:Transformation ;
+        rdfs:comment       "Transformation géodésique" ;
+        ex:referencePoint  "POINT( )" .
+
+[ ex:sg   "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> Point(0 0)"^^geo:wktLiteral ] .
+
+[ a                          seas:InstantaneousEvaluation , seas:Evaluation ;
+  seas:evaluatedSimpleValue  "65 kWh"^^cdt:ucum ;
+  seas:evaluatedValue        <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> ;
+  seas:hasTemporalContext    [ time:inXSDDateTime
+                    "2020-01-02T00:10:00+01:00"^^xsd:dateTime ]
+] .
+
+<https://territoire.emse.fr/kg/emse/fayol/#crs>
+        a             ignf:CoordinateSystem , ignf:CartesianCS ;
+        rdfs:comment  "Système de coordonnées de référence cartésien métrique conforme aux fichiers DWG. L'origine est près de la porte coupe-feu qui sépare la salle d'attente et le couloir nord, approximativement au milieu du mur porteur. L'axe x est orienté approximativement vers le sud-est-est, l'axe y est orienté approximativement vers le nord-nord-est, l'axe z est orienté vers le haut." .
+
+<https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M>
+        a       seas:Property , seas:ElectricEnergyProperty .
+
+[ a                          seas:ApproximateEvaluation , seas:TotalEvaluation , seas:Evaluation ;
+  seas:evaluatedProperty     <https://territoire.emse.fr/kg/emse/fayol/#surface> ;
+  seas:evaluatedSimpleValue  "6720 m2"^^cdt:ucum
+] .
+
+<https://territoire.emse.fr/kg/emse/fayol/>
+        a                            org:Site , bot:Building , seas:ElectricPowerConsumer ;
+        rdfs:comment                 "The building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."@en ;
+        rdfs:label                   "bâtiment EMSE Espace Fauriel"@fr ;
+        org:siteAddress              ban:422187242M-29 ;
+        org:siteOf                   <https://territoire.emse.fr/kg/emse/> ;
+        bot:hasStorey                <https://territoire.emse.fr/kg/emse/fayol/RDC/> , <https://territoire.emse.fr/kg/emse/fayol/4ET/> , <https://territoire.emse.fr/kg/emse/fayol/1ET/> , <https://territoire.emse.fr/kg/emse/fayol/ENT/> , <https://territoire.emse.fr/kg/emse/fayol/3ET/> , <https://territoire.emse.fr/kg/emse/fayol/6ET/> , <https://territoire.emse.fr/kg/emse/fayol/5ET/> , <https://territoire.emse.fr/kg/emse/fayol/2ET/> , <https://territoire.emse.fr/kg/emse/fayol/TER/> , <https://territoire.emse.fr/kg/emse/fayol/S-SOL/> ;
+        seas:incomingElectricEnergy  <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> ;
+        seas:incomingElectricPower   <https://territoire.emse.fr/kg/emse/fayol/#consumedPower> ;
+        seas:surface                 <https://territoire.emse.fr/kg/emse/fayol/#surface> .
+
+[ a                          seas:InstantaneousEvaluation , seas:Evaluation ;
+  seas:evaluatedSimpleValue  "50 kWh"^^cdt:ucum ;
+  seas:evaluatedValue        <https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M> ;
+  seas:hasTemporalContext    [ time:inXSDDateTime
+                    "2020-01-02T00:00:00+01:00"^^xsd:dateTime ]
+] .

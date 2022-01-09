@@ -1,0 +1,160 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : [ "seas:ApproximateEvaluation", "seas:HeatedSurfaceEvaluation", "seas:Evaluation" ],
+    "evaluatedProperty" : "https://territoire.emse.fr/kg/emse/fayol/#surface",
+    "evaluatedSimpleValue" : "6580 m2"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "seas:FixedDurationSum",
+    "sumDuration" : "PT10M",
+    "sumProperty" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M",
+    "summedProperty" : "https://territoire.emse.fr/kg/emse/fayol/#consumedPower"
+  }, {
+    "@id" : "_:b2",
+    "sg" : "<https://ci.mines-stetienne.fr/kg/emse/fayol/CRS> Point(0 0)"
+  }, {
+    "@id" : "_:b3",
+    "@type" : [ "seas:InstantaneousEvaluation", "seas:Evaluation" ],
+    "evaluatedSimpleValue" : "65 kWh",
+    "evaluatedValue" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M",
+    "hasTemporalContext" : "_:b4"
+  }, {
+    "@id" : "_:b4",
+    "inXSDDateTime" : "2020-01-02T00:10:00+01:00"
+  }, {
+    "@id" : "_:b5",
+    "inXSDDateTime" : "2020-01-02T00:00:00+01:00"
+  }, {
+    "@id" : "_:b6",
+    "@type" : [ "seas:ApproximateEvaluation", "seas:TotalEvaluation", "seas:Evaluation" ],
+    "evaluatedProperty" : "https://territoire.emse.fr/kg/emse/fayol/#surface",
+    "evaluatedSimpleValue" : "6720 m2"
+  }, {
+    "@id" : "_:b7",
+    "@type" : [ "seas:InstantaneousEvaluation", "seas:Evaluation" ],
+    "evaluatedSimpleValue" : "50 kWh",
+    "evaluatedValue" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M",
+    "hasTemporalContext" : "_:b5"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/",
+    "@type" : [ "org:Site", "bot:Building", "seas:ElectricPowerConsumer" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier."
+    },
+    "label" : {
+      "@language" : "fr",
+      "@value" : "bâtiment EMSE Espace Fauriel"
+    },
+    "siteAddress" : "ban:422187242M-29",
+    "siteOf" : "https://territoire.emse.fr/kg/emse/",
+    "hasStorey" : [ "https://territoire.emse.fr/kg/emse/fayol/RDC/", "https://territoire.emse.fr/kg/emse/fayol/4ET/", "https://territoire.emse.fr/kg/emse/fayol/1ET/", "https://territoire.emse.fr/kg/emse/fayol/ENT/", "https://territoire.emse.fr/kg/emse/fayol/3ET/", "https://territoire.emse.fr/kg/emse/fayol/6ET/", "https://territoire.emse.fr/kg/emse/fayol/5ET/", "https://territoire.emse.fr/kg/emse/fayol/2ET/", "https://territoire.emse.fr/kg/emse/fayol/TER/", "https://territoire.emse.fr/kg/emse/fayol/S-SOL/" ],
+    "incomingElectricEnergy" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M",
+    "incomingElectricPower" : "https://territoire.emse.fr/kg/emse/fayol/#consumedPower",
+    "surface" : "https://territoire.emse.fr/kg/emse/fayol/#surface"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M",
+    "@type" : [ "seas:Property", "seas:ElectricEnergyProperty" ]
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/#consumedPower",
+    "@type" : [ "seas:Property", "seas:ElectricPowerProperty" ],
+    "derivesFrom" : "https://territoire.emse.fr/kg/emse/fayol/#consumedEnergyPT10M"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/#crs",
+    "@type" : [ "ignf:CoordinateSystem", "ignf:CartesianCS" ],
+    "comment" : "Système de coordonnées de référence cartésien métrique conforme aux fichiers DWG. L'origine est près de la porte coupe-feu qui sépare la salle d'attente et le couloir nord, approximativement au milieu du mur porteur. L'axe x est orienté approximativement vers le sud-est-est, l'axe y est orienté approximativement vers le nord-nord-est, l'axe z est orienté vers le haut."
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/#crs-to-geo",
+    "@type" : "ignf:Transformation",
+    "referencePoint" : "POINT( )",
+    "comment" : "Transformation géodésique"
+  } ],
+  "@context" : {
+    "evaluatedSimpleValue" : {
+      "@id" : "https://w3id.org/seas/evaluatedSimpleValue",
+      "@type" : "http://w3id.org/lindt/custom_datatypes#ucum"
+    },
+    "evaluatedProperty" : {
+      "@id" : "https://w3id.org/seas/evaluatedProperty",
+      "@type" : "@id"
+    },
+    "sumDuration" : {
+      "@id" : "https://w3id.org/seas/sumDuration",
+      "@type" : "http://www.w3.org/2001/XMLSchema#duration"
+    },
+    "sumProperty" : {
+      "@id" : "https://w3id.org/seas/sumProperty",
+      "@type" : "@id"
+    },
+    "summedProperty" : {
+      "@id" : "https://w3id.org/seas/summedProperty",
+      "@type" : "@id"
+    },
+    "derivesFrom" : {
+      "@id" : "https://w3id.org/seas/derivesFrom",
+      "@type" : "@id"
+    },
+    "referencePoint" : {
+      "@id" : "http://example.org/referencePoint"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "sg" : {
+      "@id" : "http://example.org/sg",
+      "@type" : "http://www.opengis.net/ont/geosparql#wktLiteral"
+    },
+    "hasTemporalContext" : {
+      "@id" : "https://w3id.org/seas/hasTemporalContext",
+      "@type" : "@id"
+    },
+    "evaluatedValue" : {
+      "@id" : "https://w3id.org/seas/evaluatedValue",
+      "@type" : "@id"
+    },
+    "inXSDDateTime" : {
+      "@id" : "http://www.w3.org/2006/time#inXSDDateTime",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasStorey" : {
+      "@id" : "https://w3id.org/bot#hasStorey",
+      "@type" : "@id"
+    },
+    "incomingElectricPower" : {
+      "@id" : "https://w3id.org/seas/incomingElectricPower",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "siteOf" : {
+      "@id" : "http://www.w3.org/ns/org#siteOf",
+      "@type" : "@id"
+    },
+    "incomingElectricEnergy" : {
+      "@id" : "https://w3id.org/seas/incomingElectricEnergy",
+      "@type" : "@id"
+    },
+    "siteAddress" : {
+      "@id" : "http://www.w3.org/ns/org#siteAddress",
+      "@type" : "@id"
+    },
+    "surface" : {
+      "@id" : "https://w3id.org/seas/surface",
+      "@type" : "@id"
+    },
+    "geo" : "http://www.opengis.net/ont/geosparql#",
+    "seas" : "https://w3id.org/seas/",
+    "wgs84" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "cdt" : "http://w3id.org/lindt/custom_datatypes#",
+    "ex" : "http://example.org/",
+    "org" : "http://www.w3.org/ns/org#",
+    "bot" : "https://w3id.org/bot#",
+    "ignf" : "http://data.ign.fr/def/ignf#",
+    "xsd" : "http://www.w3.org/2001/XMLSchema#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "time" : "http://www.w3.org/2006/time#",
+    "ban" : "http://id.osmfr.org/bano/"
+  }
+}

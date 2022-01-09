@@ -1,0 +1,28 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508>
+        a                         bot:Space , territoire:PrinterRoom ;
+        rdfs:comment              "printer room 508 at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "printer room 508"@en , "Pièce de photocopieuse 508"@fr ;
+        territoire:canWalkTo      <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> ;
+        territoire:roomCapacity   1 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> , <https://territoire.emse.fr/kg/emse/fayol/5ET/505> , <https://territoire.emse.fr/kg/emse/fayol/5ET/506> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/5ET/508#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/5ET/508#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/5ET/508#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/5ET/508#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#luminosity>
+        a       seas:LuminosityProperty .

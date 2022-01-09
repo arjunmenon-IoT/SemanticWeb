@@ -1,0 +1,81 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221",
+    "@type" : [ "bot:Space", "territoire:ComputerClassRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Computer room with 20 computers at 2nd floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "salle S2.21"
+    }, {
+      "@language" : "en",
+      "@value" : "room S2.21"
+    } ],
+    "territoire:numberOfcomputers" : 20,
+    "territoire:roomCapacity" : 40,
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/2ET/south-corridor",
+    "hasElement" : [ "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer14", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer10", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer20", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer17", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer6", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer16", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer1", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer12", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer8", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer19", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer13", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer18", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer3", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer7", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer2", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer15", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer9", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer11", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer4", "https://territoire.emse.fr/kg/emse/fayol/2ET/221#computer5" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/2ET/221#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "numberOfcomputers" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/numberOfcomputers",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

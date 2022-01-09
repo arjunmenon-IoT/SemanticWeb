@@ -1,0 +1,30 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Storey rdf:about="https://territoire.emse.fr/kg/emse/fayol/6ET/">
+    <rdfs:label xml:lang="en">sixth floor</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/605"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/terrace"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/cloackarea"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/620"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-east"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/stairwell"/>
+    <rdfs:comment xml:lang="en">This is the sixth floor of the building of Mines Saint-Étienne located at Espace Fauriel, 29 rue Pierre et Dominique Ponchardier.</rdfs:comment>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/600"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/603"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/607"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/610"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/634"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/609"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area"/>
+    <rdfs:label xml:lang="fr">sixième étage</rdfs:label>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-men"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/604"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-women"/>
+    <bot:hasSpace rdf:resource="https://territoire.emse.fr/kg/emse/fayol/6ET/611"/>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/elevator-shaft-west"/>
+  </bot:Storey>
+</rdf:RDF>

@@ -1,0 +1,27 @@
+@prefix seas:  <https://w3id.org/seas/> .
+@prefix bot:   <https://w3id.org/bot#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix territoire: <https://territoire.emse.fr/kg/ontology/> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/207#atmosphericPressure>
+        a       seas:AtmosphericPressureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/207#humidity>
+        a       seas:HumidityProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/207>
+        a                         bot:Space , territoire:ClassRoom ;
+        rdfs:comment              "Classroom with 10 seats at 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en ;
+        rdfs:label                "salle S2.07"@fr , "room S2.07"@en ;
+        territoire:roomCapacity   10 ;
+        bot:adjacentZone          <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> ;
+        seas:atmosphericPressure  <https://territoire.emse.fr/kg/emse/fayol/2ET/207#atmosphericPressure> ;
+        seas:humidity             <https://territoire.emse.fr/kg/emse/fayol/2ET/207#humidity> ;
+        seas:luminosity           <https://territoire.emse.fr/kg/emse/fayol/2ET/207#luminosity> ;
+        seas:temperature          <https://territoire.emse.fr/kg/emse/fayol/2ET/207#temperature> .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/207#temperature>
+        a       seas:TemperatureProperty .
+
+<https://territoire.emse.fr/kg/emse/fayol/2ET/207#luminosity>
+        a       seas:LuminosityProperty .

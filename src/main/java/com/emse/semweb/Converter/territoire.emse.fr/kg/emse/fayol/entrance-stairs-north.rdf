@@ -1,0 +1,30 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north">
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <rdfs:label xml:lang="en">entrance stairs north</rdfs:label>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north#temperature"/>
+    </seas:temperature>
+    <rdfs:comment xml:lang="en">The north stairs in the entrance of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <bot:intersectsZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/"/>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north#humidity"/>
+    </seas:humidity>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall"/>
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north#luminosity"/>
+    </seas:luminosity>
+  </bot:Space>
+</rdf:RDF>

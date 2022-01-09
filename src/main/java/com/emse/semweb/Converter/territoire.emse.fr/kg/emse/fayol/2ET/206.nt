@@ -1,0 +1,17 @@
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <http://www.w3.org/2000/01/rdf-schema#label> "room S2.06"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://territoire.emse.fr/kg/ontology/roomCapacity> "24"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/bot#hasElement> <https://territoire.emse.fr/kg/emse/fayol/2ET/206#projector> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <http://www.w3.org/2000/01/rdf-schema#comment> "Classroom with 24 seats and a projector at 2nd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/2ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/2ET/206#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/2ET/206#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/2ET/206#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/ClassRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <http://www.w3.org/2000/01/rdf-schema#label> "salle S2.06"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/2ET/206#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206#projector> <http://www.w3.org/2000/01/rdf-schema#comment> "vidéo projecteur interactif Epson EB 575 WI"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/2ET/206#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .

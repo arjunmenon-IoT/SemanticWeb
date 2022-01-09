@@ -1,0 +1,29 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:seas="https://w3id.org/seas/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bot="https://w3id.org/bot#"
+    xmlns:territoire="https://territoire.emse.fr/kg/ontology/">
+  <bot:Space rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men">
+    <seas:luminosity>
+      <seas:LuminosityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men#luminosity"/>
+    </seas:luminosity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor"/>
+    <territoire:canWalkTo rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-corridor"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/307"/>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/shower"/>
+    <seas:atmosphericPressure>
+      <seas:AtmosphericPressureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men#atmosphericPressure"/>
+    </seas:atmosphericPressure>
+    <rdfs:comment xml:lang="en">Men's bathroom on the North side of 3rd floor of Espace Fauriel, Mines Saint-Étienne</rdfs:comment>
+    <seas:humidity>
+      <seas:HumidityProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men#humidity"/>
+    </seas:humidity>
+    <bot:adjacentZone rdf:resource="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-women"/>
+    <seas:temperature>
+      <seas:TemperatureProperty rdf:about="https://territoire.emse.fr/kg/emse/fayol/3ET/north-bathroom-men#temperature"/>
+    </seas:temperature>
+    <rdfs:label xml:lang="en">North men's bathroom</rdfs:label>
+    <rdf:type rdf:resource="https://territoire.emse.fr/kg/ontology/Bathroom"/>
+  </bot:Space>
+</rdf:RDF>

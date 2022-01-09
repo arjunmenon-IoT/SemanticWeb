@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/south-bathroom-prm> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/StorageRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/6ET/634#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/6ET/634#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <http://www.w3.org/2000/01/rdf-schema#comment> "Storage room 634 at 6th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/6ET/634#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/6ET/634#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <http://www.w3.org/2000/01/rdf-schema#label> "Salle de réserves 634"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <http://www.w3.org/2000/01/rdf-schema#label> "storage room 634"@en .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/6ET/620> .
+<https://territoire.emse.fr/kg/emse/fayol/6ET/634> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/6ET/620> .

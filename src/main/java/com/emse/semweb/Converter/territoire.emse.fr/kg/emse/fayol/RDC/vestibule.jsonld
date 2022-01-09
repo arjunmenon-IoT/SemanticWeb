@@ -1,0 +1,84 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A small vestibule at the entrance of the building of Mines Saint-Étienne at Espace Fauriel. There is an automatic glassdoor that opens to the outside and one that is activated by a badge that opens to the inside."
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "vestibule"
+    },
+    "hasProperty" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature",
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall",
+    "wheelAccessible" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall",
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall",
+    "hasElement" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#interphone",
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/vestibule#temperature",
+    "@type" : [ "seas:TemperatureProperty", "territoire:TemperatureProperty" ]
+  } ],
+  "@context" : {
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "wheelAccessible" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/wheelAccessible",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "hasProperty" : {
+      "@id" : "http://www.w3.org/ns/ssn/hasProperty",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/",
+    "ssn" : "http://www.w3.org/ns/ssn/"
+  }
+}

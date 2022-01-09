@@ -1,0 +1,16 @@
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <http://www.w3.org/2000/01/rdf-schema#comment> "Men's bathroom on the South side of 3rd floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/kitchen-coffee-lunch-area> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <http://www.w3.org/2000/01/rdf-schema#label> "South men's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-women-prm> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/3ET/south-bathroom-men#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

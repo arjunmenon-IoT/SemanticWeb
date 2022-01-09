@@ -1,0 +1,15 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/Bathroom> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/431F> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <http://www.w3.org/2000/01/rdf-schema#label> "South men's bathroom"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/4ET/431H#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/south-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H> <http://www.w3.org/2000/01/rdf-schema#comment> "Men's bathroom on the South side of 4th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/431H#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

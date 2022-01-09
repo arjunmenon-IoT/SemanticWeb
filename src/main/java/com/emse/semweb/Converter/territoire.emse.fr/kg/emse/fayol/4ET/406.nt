@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/4ET/406#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/OfficeRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/408> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/4ET/406#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <http://www.w3.org/2000/01/rdf-schema#comment> "Office 406 at 4th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/4ET/406#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/4ET/404> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <http://www.w3.org/2000/01/rdf-schema#label> "office 406"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <http://www.w3.org/2000/01/rdf-schema#label> "office 406"@en .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://territoire.emse.fr/kg/ontology/roomCapacity> "TODO" .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/4ET/406#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/4ET/406#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .

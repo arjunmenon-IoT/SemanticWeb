@@ -1,0 +1,71 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007",
+    "@type" : [ "bot:Space", "territoire:TechnicianRoom" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "A room reserved for technical staff and service agents, at the half floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "salle 007"
+    }, {
+      "@language" : "en",
+      "@value" : "room 007"
+    } ],
+    "canWalkTo" : "https://territoire.emse.fr/kg/emse/fayol/ENT/011",
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/007B", "https://territoire.emse.fr/kg/emse/fayol/ENT/011", "https://territoire.emse.fr/kg/emse/fayol/ENT/000" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/007#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

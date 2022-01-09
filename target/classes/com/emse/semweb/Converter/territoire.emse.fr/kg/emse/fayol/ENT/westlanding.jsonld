@@ -1,0 +1,81 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding",
+    "@type" : "bot:Space",
+    "comment" : {
+      "@language" : "en",
+      "@value" : "The upper part of the entrance-hall that is at the half floor of Espace Fauriel, Mines Saint-Étienne"
+    },
+    "label" : {
+      "@language" : "en",
+      "@value" : "westlanding half floor"
+    },
+    "canWalkTo" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/000", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north", "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south" ],
+    "adjacentZone" : [ "https://territoire.emse.fr/kg/emse/fayol/ENT/022-sas", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south", "https://territoire.emse.fr/kg/emse/fayol/ENT/000" ],
+    "intersectsZone" : [ "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-south", "https://territoire.emse.fr/kg/emse/fayol/entrance-stairs-north" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding#temperature",
+    "@type" : "seas:TemperatureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/RDC/entrance-hall",
+    "containsZone" : "https://territoire.emse.fr/kg/emse/fayol/ENT/westlanding"
+  } ],
+  "@context" : {
+    "containsZone" : {
+      "@id" : "https://w3id.org/bot#containsZone",
+      "@type" : "@id"
+    },
+    "canWalkTo" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/canWalkTo",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "intersectsZone" : {
+      "@id" : "https://w3id.org/bot#intersectsZone",
+      "@type" : "@id"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}

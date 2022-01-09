@@ -1,0 +1,18 @@
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/TemperatureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#atmosphericPressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/AtmosphericPressureProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/HumidityProperty> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <http://www.w3.org/2000/01/rdf-schema#label> "printer room 508"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/bot#Space> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <http://www.w3.org/2000/01/rdf-schema#label> "Pièce de photocopieuse 508"@fr .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://territoire.emse.fr/kg/ontology/canWalkTo> <https://territoire.emse.fr/kg/emse/fayol/5ET/north-corridor> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/seas/atmosphericPressure> <https://territoire.emse.fr/kg/emse/fayol/5ET/508#atmosphericPressure> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/seas/humidity> <https://territoire.emse.fr/kg/emse/fayol/5ET/508#humidity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/seas/temperature> <https://territoire.emse.fr/kg/emse/fayol/5ET/508#temperature> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/505> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://territoire.emse.fr/kg/ontology/PrinterRoom> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/seas/luminosity> <https://territoire.emse.fr/kg/emse/fayol/5ET/508#luminosity> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <http://www.w3.org/2000/01/rdf-schema#comment> "printer room 508 at 5th floor of Espace Fauriel, Mines Saint-Étienne"@en .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://territoire.emse.fr/kg/ontology/roomCapacity> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508> <https://w3id.org/bot#adjacentZone> <https://territoire.emse.fr/kg/emse/fayol/5ET/506> .
+<https://territoire.emse.fr/kg/emse/fayol/5ET/508#luminosity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/seas/LuminosityProperty> .

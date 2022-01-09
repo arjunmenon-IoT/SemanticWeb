@@ -1,0 +1,76 @@
+{
+  "@graph" : [ {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104",
+    "@type" : [ "territoire:Amphitheatre", "bot:Space" ],
+    "comment" : {
+      "@language" : "en",
+      "@value" : "Lecture hall with projector, a computer for the lecturer, and 79 seats"
+    },
+    "label" : [ {
+      "@language" : "fr",
+      "@value" : "Amphi 104"
+    }, {
+      "@language" : "en",
+      "@value" : "Amphi 104"
+    } ],
+    "territoire:roomCapacity" : 79,
+    "adjacentZone" : "https://territoire.emse.fr/kg/emse/fayol/1ET/north-corridor",
+    "hasElement" : [ "https://territoire.emse.fr/kg/emse/fayol/1ET/104#projector", "https://territoire.emse.fr/kg/emse/fayol/1ET/104#computer" ],
+    "atmosphericPressure" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#atmosphericPressure",
+    "humidity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#humidity",
+    "luminosity" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#luminosity",
+    "temperature" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#temperature"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#atmosphericPressure",
+    "@type" : "seas:AtmosphericPressureProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#humidity",
+    "@type" : "seas:HumidityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#luminosity",
+    "@type" : "seas:LuminosityProperty"
+  }, {
+    "@id" : "https://territoire.emse.fr/kg/emse/fayol/1ET/104#temperature",
+    "@type" : "seas:TemperatureProperty"
+  } ],
+  "@context" : {
+    "luminosity" : {
+      "@id" : "https://w3id.org/seas/luminosity",
+      "@type" : "@id"
+    },
+    "roomCapacity" : {
+      "@id" : "https://territoire.emse.fr/kg/ontology/roomCapacity",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "adjacentZone" : {
+      "@id" : "https://w3id.org/bot#adjacentZone",
+      "@type" : "@id"
+    },
+    "hasElement" : {
+      "@id" : "https://w3id.org/bot#hasElement",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "temperature" : {
+      "@id" : "https://w3id.org/seas/temperature",
+      "@type" : "@id"
+    },
+    "humidity" : {
+      "@id" : "https://w3id.org/seas/humidity",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "atmosphericPressure" : {
+      "@id" : "https://w3id.org/seas/atmosphericPressure",
+      "@type" : "@id"
+    },
+    "seas" : "https://w3id.org/seas/",
+    "bot" : "https://w3id.org/bot#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "territoire" : "https://territoire.emse.fr/kg/ontology/"
+  }
+}
